@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:ileague.id)",
+      "Bash(python3:*)",
+      "Bash(pip install:*)",
+      "WebFetch(domain:scraperfc.readthedocs.io)",
+      "WebFetch(domain:www.sofascore.com)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(source:*)",
+      "Bash(python:*)",
+      "Bash(pip3 install:*)",
+      "Bash(apt list:*)",
+      "Bash(mkdir:*)",
+      "Bash(grep:*)",
+      "Bash(mv:*)",
+      "Bash(streamlit run:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
