@@ -30,7 +30,7 @@ class TeamPlayersScraper:
         """Load teams data from 25_26_teams.json"""
         try:
             script_dir = Path(__file__).parent
-            json_file = script_dir / '25_26_teams_persib.json'
+            json_file = script_dir / '25_26_teams_test.json'
             
             with open(json_file, 'r', encoding='utf-8') as f:
                 teams_data = json.load(f)
@@ -229,9 +229,13 @@ class TeamPlayersScraper:
                 # Look for appearances
                 if cell_text == 'Penampilan' and i + 1 < len(table_cells):
                     next_cell = table_cells[i + 1]
+                    #print({next_cell})
                     appearances = self.extract_number(next_cell.get_text())
                     if appearances is not None:
                         player_data['penampilan'] = appearances
+                        print(f"    Found Penampilan: {appearances}")
+                    else:
+                        print(f"    NOT Found Penampilan: {appearances}")
                 
                 # Look for age
                 if cell_text == 'Usia' and i + 1 < len(table_cells):
@@ -322,7 +326,7 @@ class TeamPlayersScraper:
         
         return teams_info
     
-    def save_to_json(self, teams_info, filename='data/teams_info.json'):
+    def save_to_json(self, teams_info, filename='data/teams_info_biak_bali.json'):
         """Save teams info to JSON file"""
         try:
             # Ensure data directory exists

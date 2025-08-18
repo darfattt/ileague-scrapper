@@ -8,6 +8,7 @@ from utils.player_performance import (
     create_category_scores_visualization, 
     create_category_summary_table
 )
+from viz.player_comparison import show_player_comparison
 
 # Global stats calculation functions
 def calculate_overall_stats(df):
@@ -390,12 +391,12 @@ def main():
     
     page = st.sidebar.selectbox(
         "Select Page",
-        ["📈 Player Performance"],
+        ["📈 Player Performance", "🔄 Player Comparison"],
         index=0
     )
     
     # Global Filters
-    st.sidebar.markdown("### 🔧 Global Filters")
+    #st.sidebar.markdown("### 🔧 Global Filters")
     st.sidebar.markdown("---")
     
     # Team filter with error handling
@@ -492,6 +493,8 @@ def main():
     # Page routing
     if page == "📈 Player Performance":
         show_stats_dashboard(filtered_df)
+    elif page == "🔄 Player Comparison":
+        show_player_comparison(filtered_df)
 
 def show_stats_dashboard(df):
     """Display the stats dashboard page"""

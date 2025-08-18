@@ -4,7 +4,7 @@ A Streamlit web application for analyzing individual player statistics from the 
 
 ## Features
 
-### 📈 Stats Dashboard
+### 📈 Player Performance Dashboard
 - **Top 10 Players**: View top performers for each statistic
 - **Negative Metrics Handling**: Properly handles metrics where lower values are better (Own Goal, Yellow Card, Foul, Shoot Off Target)
 - **Category Organization**: Metrics organized into logical categories:
@@ -13,6 +13,15 @@ A Streamlit web application for analyzing individual player statistics from the 
   - **Progression**: Passing, Cross, Dribble Success, Free Kick
   - **Discipline**: Foul, Fouled, Yellow Card, Own Goal
   - **Goalkeeper**: Saves
+
+### 🔄 NEW: Player Comparison
+- **Multi-Player Analysis**: Compare 2-4 players side-by-side with advanced filtering
+- **Smart Player Search**: Filter by team, position, age, and appearances to find relevant players
+- **Radar Chart Comparison**: Multi-dimensional visualization of all 22 player metrics
+- **Performance Bar Charts**: Category-based horizontal bar charts with percentile rankings
+- **Detailed Statistics Table**: Comprehensive metric comparison with best performer highlights
+- **Filtered Percentiles**: Rankings calculated against filtered player pool (not entire dataset)
+- **Dark Mode Compatible**: Professional sports analytics styling with enhanced readability
 
 ### 📊 NEW: Category Performance Analysis (Overall Tab)
 - **Category Scores**: Normalized performance scores for Attack, Defense, Progression, Discipline

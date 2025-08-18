@@ -129,34 +129,34 @@ class PlayerDataCombiner:
                     return stats, 'clean_name_team'
         
         # Strategy 4: Partial matching + team validation
-        for stats_player_name, stats in self.player_stats.items():
-            if stats.get('Team', '') == team_name:  # Team must match first
-                clean_stats_name = self.clean_name(stats_player_name)
+        # for stats_player_name, stats in self.player_stats.items():
+        #     if stats.get('Team', '') == team_name:  # Team must match first
+        #         clean_stats_name = self.clean_name(stats_player_name)
                 
-                # Check if cleaned names contain each other
-                if clean_full_name and clean_stats_name:
-                    if (clean_full_name in clean_stats_name or 
-                        clean_stats_name in clean_full_name):
-                        return stats, 'partial_fullname_team'
+        #         # Check if cleaned names contain each other
+        #         if clean_full_name and clean_stats_name:
+        #             if (clean_full_name in clean_stats_name or 
+        #                 clean_stats_name in clean_full_name):
+        #                 return stats, 'partial_fullname_team'
                 
-                if clean_name and clean_stats_name:
-                    if (clean_name in clean_stats_name or 
-                        clean_stats_name in clean_name):
-                        return stats, 'partial_name_team'
+        #         if clean_name and clean_stats_name:
+        #             if (clean_name in clean_stats_name or 
+        #                 clean_stats_name in clean_name):
+        #                 return stats, 'partial_name_team'
         
         # Strategy 5: Fallback - name match without team validation (lower confidence)
         # Only use this if team-validated matching fails
-        clean_full_name = self.clean_name(full_name)
-        clean_name = self.clean_name(name)
+        # clean_full_name = self.clean_name(full_name)
+        # clean_name = self.clean_name(name)
         
-        for stats_player_name, stats in self.player_stats.items():
-            clean_stats_name = self.clean_name(stats_player_name)
+        # for stats_player_name, stats in self.player_stats.items():
+        #     clean_stats_name = self.clean_name(stats_player_name)
             
-            # Try exact match with cleaned names (no team validation)
-            if clean_stats_name == clean_full_name:
-                return stats, 'clean_fullname_no_team'
-            elif clean_stats_name == clean_name:
-                return stats, 'clean_name_no_team'
+        #     # Try exact match with cleaned names (no team validation)
+        #     if clean_stats_name == clean_full_name:
+        #         return stats, 'clean_fullname_no_team'
+        #     elif clean_stats_name == clean_name:
+        #         return stats, 'clean_name_no_team'
         
         # No match found
         return None, 'no_match'
