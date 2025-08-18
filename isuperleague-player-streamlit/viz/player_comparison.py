@@ -17,11 +17,12 @@ def show_player_comparison(filtered_df):
         return
     
     # Player selection section
-    st.subheader("👥 Select Players to Compare")
     
     # Show current filter summary
-    st.info(f"📊 **Available Players**: {len(filtered_df)} players from {filtered_df['Team'].nunique()} teams")
-    
+    st.info(
+    f"📊 Comparing players is more accurate when you filter by position.  \n"
+    f"   **Available Players**: {len(filtered_df)} players from {filtered_df['Team'].nunique()} teams"
+)
     # Create player options with team and position info
     player_options = []
     for _, player in filtered_df.iterrows():
@@ -42,6 +43,7 @@ def show_player_comparison(filtered_df):
         
         # Show sample of available players
         display_df = filtered_df[['Player Name', 'Team', 'Position', 'Age', 'Appearances', 'Goal', 'Assist']].head(20)
+        display_df.index = range(1, len(display_df) + 1)
         st.dataframe(display_df, use_container_width=True)
         return
     
@@ -238,17 +240,8 @@ def create_player_performance_bar_chart(comparison_df, filtered_df, player_data,
                 if metric in NEGATIVE_METRICS:
                     percentile = 100 - percentile  # Invert for negative metrics
                 
-                # Calculate bar length using actual values
-                if metric in NEGATIVE_METRICS:
-                    # For negative metrics, invert the scale
-                    metric_max = filtered_df[metric].max()
-                    bar_length = (metric_max - current_value) + 2  # +2 ensures visibility
-                else:
-                    # For positive metrics, use actual value directly
-                    bar_length = current_value + 1  # +1 ensures zero values are visible
-                
-                # Ensure minimum bar length for visibility
-                bar_length = max(bar_length, 1)
+                # Use percentile for bar length (0-100 scale)
+                bar_length = max(percentile, 1)  # Ensure minimum bar length for visibility
                 
                 # Determine color based on percentile
                 if percentile >= 81:
