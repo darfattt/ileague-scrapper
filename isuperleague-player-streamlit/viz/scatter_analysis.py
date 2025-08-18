@@ -78,194 +78,191 @@ def show_scatter_analysis(filtered_df):
     st.markdown("---")
     
     # Advanced highlighting options
-    st.subheader("🎨 Highlighting Options")
-    
-    highlighted_players = set()
-    highlight_colors = {}
-    highlight_reasons = {}
-    
-    # Players & Teams Selection
-    #st.markdown("**👥 Players & Teams**")
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("**🏷️ Select Specific Players**")
-        selected_players = st.multiselect(
-            "Choose players to highlight:",
-            options=sorted(filtered_df['Player Name'].tolist()),
-            default=[],
-            help="Select individual players to highlight on the chart"
-        )
+    with st.expander("🎨 Highlighting Options", expanded=True):
+        highlighted_players = set()
+        highlight_colors = {}
+        highlight_reasons = {}
         
-        if selected_players:
-            for player in selected_players:
-                highlighted_players.add(player)
-                highlight_colors[player] = '#FF6B9D'  # Pink for selected players
-                highlight_reasons[player] = 'Selected Player'
-    
-    with col2:
-        st.markdown("**🏟️ Select Teams**")
-        available_teams = sorted(filtered_df['Team'].unique().tolist())
-        selected_teams = st.multiselect(
-            "Choose teams to highlight:",
-            options=available_teams,
-            default=[],
-            help="Select teams to highlight all their players"
-        )
-        
-        if selected_teams:
-            team_players = filtered_df[filtered_df['Team'].isin(selected_teams)]['Player Name'].tolist()
-            for player in team_players:
-                if player not in highlighted_players:  # Don't override individual selections
-                    highlighted_players.add(player)
-                    highlight_colors[player] = '#4ECDC4'  # Cyan for team selections
-                    highlight_reasons[player] = f'Team: {filtered_df[filtered_df["Player Name"] == player]["Team"].iloc[0]}'
-    
-    st.markdown("---")
-    
-    # Performance-Based Highlighting
-    #st.markdown("**📊 Performance-Based Highlighting**")
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("**📈 X-Axis Performance**")
-        
-        top_x = st.checkbox(f"Top 10 {x_axis}", help=f"Highlight players with highest {x_axis} values")
-        bottom_x = st.checkbox(f"Bottom 10 {x_axis}", help=f"Highlight players with lowest {x_axis} values")
-        
-        if top_x:
-            top_x_players = filtered_df.nlargest(10, x_axis)['Player Name'].tolist()
-            for player in top_x_players:
-                if player not in highlighted_players:
-                    highlighted_players.add(player)
-                    highlight_colors[player] = '#1a9641'  # Green for top performers
-                    highlight_reasons[player] = f'Top 10 {x_axis}'
-        
-        if bottom_x:
-            bottom_x_players = filtered_df.nsmallest(10, x_axis)['Player Name'].tolist()
-            for player in bottom_x_players:
-                if player not in highlighted_players:
-                    highlighted_players.add(player)
-                    highlight_colors[player] = '#d73027'  # Red for bottom performers
-                    highlight_reasons[player] = f'Bottom 10 {x_axis}'
-    
-    with col2:
-        st.markdown("**📊 Y-Axis Performance**")
-        
-        top_y = st.checkbox(f"Top 10 {y_axis}", help=f"Highlight players with highest {y_axis} values")
-        bottom_y = st.checkbox(f"Bottom 10 {y_axis}", help=f"Highlight players with lowest {y_axis} values")
-        
-        if top_y:
-            top_y_players = filtered_df.nlargest(10, y_axis)['Player Name'].tolist()
-            for player in top_y_players:
-                if player not in highlighted_players:
-                    highlighted_players.add(player)
-                    highlight_colors[player] = '#1a9641'  # Green for top performers
-                    highlight_reasons[player] = f'Top 10 {y_axis}'
-        
-        if bottom_y:
-            bottom_y_players = filtered_df.nsmallest(10, y_axis)['Player Name'].tolist()
-            for player in bottom_y_players:
-                if player not in highlighted_players:
-                    highlighted_players.add(player)
-                    highlight_colors[player] = '#d73027'  # Red for bottom performers
-                    highlight_reasons[player] = f'Bottom 10 {y_axis}'
-    
-    st.markdown("**🎯 Combined Performance**")
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        top_combined = st.checkbox(
-            "Top 10 Combined", 
-            help=f"Highlight players with highest average of {x_axis} and {y_axis}"
-        )
-    
-    with col2:
-        bottom_combined = st.checkbox(
-            "Bottom 10 Combined", 
-            help=f"Highlight players with lowest average of {x_axis} and {y_axis}"
-        )
-    
-    if top_combined:
-        filtered_df_copy = filtered_df.copy()
-        filtered_df_copy['combined_score'] = (filtered_df_copy[x_axis] + filtered_df_copy[y_axis]) / 2
-        top_combined_players = filtered_df_copy.nlargest(10, 'combined_score')['Player Name'].tolist()
-        for player in top_combined_players:
-            if player not in highlighted_players:
-                highlighted_players.add(player)
-                highlight_colors[player] = '#FFD93D'  # Gold for top combined
-                highlight_reasons[player] = f'Top 10 Combined ({x_axis} + {y_axis})'
-    
-    if bottom_combined:
-        filtered_df_copy = filtered_df.copy()
-        filtered_df_copy['combined_score'] = (filtered_df_copy[x_axis] + filtered_df_copy[y_axis]) / 2
-        bottom_combined_players = filtered_df_copy.nsmallest(10, 'combined_score')['Player Name'].tolist()
-        for player in bottom_combined_players:
-            if player not in highlighted_players:
-                highlighted_players.add(player)
-                highlight_colors[player] = '#FF8C42'  # Orange for bottom combined
-                highlight_reasons[player] = f'Bottom 10 Combined ({x_axis} + {y_axis})'
-    
-    st.markdown("---")
-    
-    # Age-Based Highlighting
-    st.markdown("**🎂 Age-Based Highlighting**")
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        highlight_u23 = st.checkbox(
-            "U23 Players", 
-            help="Highlight players under 23 years old"
-        )
-    
-    with col2:
-        highlight_u20 = st.checkbox(
-            "U20 Players", 
-            help="Highlight players under 20 years old"
-        )
-    
-    if highlight_u23:
-        u23_players = filtered_df[filtered_df['Age'] < 23]['Player Name'].tolist()
-        for player in u23_players:
-            if player not in highlighted_players:
-                highlighted_players.add(player)
-                highlight_colors[player] = '#6BCF7F'  # Light green for young talent
-                highlight_reasons[player] = f'U23 Player (Age: {filtered_df[filtered_df["Player Name"] == player]["Age"].iloc[0]})'
-    
-    if highlight_u20:
-        u20_players = filtered_df[filtered_df['Age'] < 20]['Player Name'].tolist()
-        for player in u20_players:
-            if player not in highlighted_players:
-                highlighted_players.add(player)
-                highlight_colors[player] = '#00D4FF'  # Bright blue for very young talent
-                highlight_reasons[player] = f'U20 Player (Age: {filtered_df[filtered_df["Player Name"] == player]["Age"].iloc[0]})'
-    
-    st.markdown("---")
-    
-    # Display Controls
-    with st.expander("⚙️ Display Controls", expanded=False):
+        # Players & Teams Selection
+        st.markdown("**👥 Players & Teams**")
         col1, col2 = st.columns(2)
         
         with col1:
-            default_opacity = st.slider(
-                "Default Player Opacity",
-                min_value=0.1,
-                max_value=1.0,
-                value=0.3,
-                step=0.1,
-                help="Opacity for non-highlighted players"
+            st.markdown("**🏷️ Select Specific Players**")
+            selected_players = st.multiselect(
+                "Choose players to highlight:",
+                options=sorted(filtered_df['Player Name'].tolist()),
+                default=[],
+                help="Select individual players to highlight on the chart"
+            )
+            
+            if selected_players:
+                for player in selected_players:
+                    highlighted_players.add(player)
+                    highlight_colors[player] = '#FF6B9D'  # Pink for selected players
+                    highlight_reasons[player] = 'Selected Player'
+        
+        with col2:
+            st.markdown("**🏟️ Select Teams**")
+            available_teams = sorted(filtered_df['Team'].unique().tolist())
+            selected_teams = st.multiselect(
+                "Choose teams to highlight:",
+                options=available_teams,
+                default=[],
+                help="Select teams to highlight all their players"
+            )
+            
+            if selected_teams:
+                team_players = filtered_df[filtered_df['Team'].isin(selected_teams)]['Player Name'].tolist()
+                for player in team_players:
+                    if player not in highlighted_players:  # Don't override individual selections
+                        highlighted_players.add(player)
+                        highlight_colors[player] = '#4ECDC4'  # Cyan for team selections
+                        highlight_reasons[player] = f'Team: {filtered_df[filtered_df["Player Name"] == player]["Team"].iloc[0]}'
+        
+        st.markdown("---")
+        
+        # Performance-Based Highlighting
+        st.markdown("**📊 Performance-Based Highlighting**")
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown("**📈 X-Axis Performance**")
+            
+            top_x = st.checkbox(f"Top 10 {x_axis}", help=f"Highlight players with highest {x_axis} values")
+            bottom_x = st.checkbox(f"Bottom 10 {x_axis}", help=f"Highlight players with lowest {x_axis} values")
+            
+            if top_x:
+                top_x_players = filtered_df.nlargest(10, x_axis)['Player Name'].tolist()
+                for player in top_x_players:
+                    if player not in highlighted_players:
+                        highlighted_players.add(player)
+                        highlight_colors[player] = '#1a9641'  # Green for top performers
+                        highlight_reasons[player] = f'Top 10 {x_axis}'
+            
+            if bottom_x:
+                bottom_x_players = filtered_df.nsmallest(10, x_axis)['Player Name'].tolist()
+                for player in bottom_x_players:
+                    if player not in highlighted_players:
+                        highlighted_players.add(player)
+                        highlight_colors[player] = '#d73027'  # Red for bottom performers
+                        highlight_reasons[player] = f'Bottom 10 {x_axis}'
+        
+        with col2:
+            st.markdown("**📊 Y-Axis Performance**")
+            
+            top_y = st.checkbox(f"Top 10 {y_axis}", help=f"Highlight players with highest {y_axis} values")
+            bottom_y = st.checkbox(f"Bottom 10 {y_axis}", help=f"Highlight players with lowest {y_axis} values")
+            
+            if top_y:
+                top_y_players = filtered_df.nlargest(10, y_axis)['Player Name'].tolist()
+                for player in top_y_players:
+                    if player not in highlighted_players:
+                        highlighted_players.add(player)
+                        highlight_colors[player] = '#1a9641'  # Green for top performers
+                        highlight_reasons[player] = f'Top 10 {y_axis}'
+            
+            if bottom_y:
+                bottom_y_players = filtered_df.nsmallest(10, y_axis)['Player Name'].tolist()
+                for player in bottom_y_players:
+                    if player not in highlighted_players:
+                        highlighted_players.add(player)
+                        highlight_colors[player] = '#d73027'  # Red for bottom performers
+                        highlight_reasons[player] = f'Bottom 10 {y_axis}'
+        
+        st.markdown("**🎯 Combined Performance**")
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            top_combined = st.checkbox(
+                "Top 10 Combined", 
+                help=f"Highlight players with highest average of {x_axis} and {y_axis}"
             )
         
         with col2:
-            highlight_opacity = st.slider(
-                "Highlighted Player Opacity",
-                min_value=0.5,
-                max_value=1.0,
-                value=0.9,
-                step=0.1,
-                help="Opacity for highlighted players"
+            bottom_combined = st.checkbox(
+                "Bottom 10 Combined", 
+                help=f"Highlight players with lowest average of {x_axis} and {y_axis}"
             )
-    
+        
+        if top_combined:
+            filtered_df_copy = filtered_df.copy()
+            filtered_df_copy['combined_score'] = (filtered_df_copy[x_axis] + filtered_df_copy[y_axis]) / 2
+            top_combined_players = filtered_df_copy.nlargest(10, 'combined_score')['Player Name'].tolist()
+            for player in top_combined_players:
+                if player not in highlighted_players:
+                    highlighted_players.add(player)
+                    highlight_colors[player] = '#FFD93D'  # Gold for top combined
+                    highlight_reasons[player] = f'Top 10 Combined ({x_axis} + {y_axis})'
+        
+        if bottom_combined:
+            filtered_df_copy = filtered_df.copy()
+            filtered_df_copy['combined_score'] = (filtered_df_copy[x_axis] + filtered_df_copy[y_axis]) / 2
+            bottom_combined_players = filtered_df_copy.nsmallest(10, 'combined_score')['Player Name'].tolist()
+            for player in bottom_combined_players:
+                if player not in highlighted_players:
+                    highlighted_players.add(player)
+                    highlight_colors[player] = '#FF8C42'  # Orange for bottom combined
+                    highlight_reasons[player] = f'Bottom 10 Combined ({x_axis} + {y_axis})'
+        
+        st.markdown("---")
+        
+        # Age-Based Highlighting
+        st.markdown("**🎂 Age-Based Highlighting**")
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            highlight_u23 = st.checkbox(
+                "U23 Players", 
+                help="Highlight players under 23 years old"
+            )
+        
+        with col2:
+            highlight_u20 = st.checkbox(
+                "U20 Players", 
+                help="Highlight players under 20 years old"
+            )
+        
+        if highlight_u23:
+            u23_players = filtered_df[filtered_df['Age'] < 23]['Player Name'].tolist()
+            for player in u23_players:
+                if player not in highlighted_players:
+                    highlighted_players.add(player)
+                    highlight_colors[player] = '#6BCF7F'  # Light green for young talent
+                    highlight_reasons[player] = f'U23 Player (Age: {filtered_df[filtered_df["Player Name"] == player]["Age"].iloc[0]})'
+        
+        if highlight_u20:
+            u20_players = filtered_df[filtered_df['Age'] < 20]['Player Name'].tolist()
+            for player in u20_players:
+                if player not in highlighted_players:
+                    highlighted_players.add(player)
+                    highlight_colors[player] = '#00D4FF'  # Bright blue for very young talent
+                    highlight_reasons[player] = f'U20 Player (Age: {filtered_df[filtered_df["Player Name"] == player]["Age"].iloc[0]})'
+        
+        st.markdown("---")
+
+        st.markdown("⚙️ Display Controls")
+        col1, col2 = st.columns(2)
+        with col1:
+            default_opacity = st.slider(
+                    "Default Player Opacity",
+                    min_value=0.1,
+                    max_value=1.0,
+                    value=0.3,
+                    step=0.1,
+                    help="Opacity for non-highlighted players"
+            )
+            
+        with col2:
+            highlight_opacity = st.slider(
+                    "Highlighted Player Opacity",
+                    min_value=0.5,
+                    max_value=1.0,
+                    value=0.9,
+                    step=0.1,
+                    help="Opacity for highlighted players"
+            )
+            
     st.markdown("---")
     
     # Show debug info about name display after highlighting logic

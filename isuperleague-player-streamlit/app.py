@@ -11,6 +11,8 @@ from utils.player_performance import (
 from viz.player_comparison import show_player_comparison
 from viz.profile_finder import show_profile_finder
 from viz.scatter_analysis import show_scatter_analysis
+from viz.player_report import show_player_report
+from viz.player_screener import show_player_screener
 
 # Global stats calculation functions
 def calculate_overall_stats(df):
@@ -269,7 +271,7 @@ def calculate_team_based_stats(df):
 
 # Page config
 st.set_page_config(
-    page_title="Indonesia Super League Player Analytics",
+    page_title="Explore in-depth player insights and performance trends from the Indonesia Super League — all in one powerful dashboard",
     page_icon="⚽",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -369,7 +371,7 @@ NEGATIVE_METRICS = [
 # Main navigation
 def main():
     # Header
-    st.markdown('<h1 class="main-header">⚽ Indonesia Super League Player Analytics Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">Indonesia Super League Player Performance Analytics</h1>', unsafe_allow_html=True)
     
     # Load data
     try:
@@ -393,7 +395,7 @@ def main():
     
     page = st.sidebar.selectbox(
         "Select Page",
-        ["📈 Player Performance", "🔄 Player Comparison", "🎯 Profile Finder", "📊 Scatter Analysis"],
+        ["📈 Player Performance", "🔄 Player Comparison", "🎯 Profile Finder", "📊 Scatter Analysis", "👤 Player Report", "🔍 Player Screener"],
         index=0
     )
     
@@ -492,6 +494,27 @@ def main():
     except Exception as e:
         st.sidebar.error(f"Error calculating summary: {str(e)}")
     
+    # Sidebar footer with app information
+    st.sidebar.markdown("---")
+    st.sidebar.markdown("### ℹ️ App Information")
+    
+    # Get current date for last updated (you can modify this to actual data update date)
+    from datetime import datetime
+    current_date = datetime.now().strftime("%Y-%m-%d")
+    
+    st.sidebar.markdown(f"""
+    <div style='font-size: 0.8em; color: #666;'>
+    📊 <strong>Data Source:</strong><br>
+    <a href='https://ileague.id/' target='_blank' style='text-decoration: none;'>ileague.id</a>
+    
+    🗓️ <strong>Last Updated:</strong><br>
+    {current_date}
+    
+    📱 <strong>Version:</strong><br>
+    v1.2.0
+    </div>
+    """, unsafe_allow_html=True)
+    
     # Page routing
     if page == "📈 Player Performance":
         show_stats_dashboard(filtered_df)
@@ -501,6 +524,10 @@ def main():
         show_profile_finder(filtered_df)
     elif page == "📊 Scatter Analysis":
         show_scatter_analysis(filtered_df)
+    elif page == "👤 Player Report":
+        show_player_report(filtered_df)
+    elif page == "🔍 Player Screener":
+        show_player_screener(filtered_df)
 
 def show_stats_dashboard(df):
     """Display the stats dashboard page"""
