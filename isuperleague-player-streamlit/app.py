@@ -10,6 +10,7 @@ from utils.player_performance import (
 )
 from viz.player_comparison import show_player_comparison
 from viz.profile_finder import show_profile_finder
+from viz.scatter_analysis import show_scatter_analysis
 
 # Global stats calculation functions
 def calculate_overall_stats(df):
@@ -392,7 +393,7 @@ def main():
     
     page = st.sidebar.selectbox(
         "Select Page",
-        ["📈 Player Performance", "🔄 Player Comparison", "🎯 Profile Finder"],
+        ["📈 Player Performance", "🔄 Player Comparison", "🎯 Profile Finder", "📊 Scatter Analysis"],
         index=0
     )
     
@@ -498,6 +499,8 @@ def main():
         show_player_comparison(filtered_df)
     elif page == "🎯 Profile Finder":
         show_profile_finder(filtered_df)
+    elif page == "📊 Scatter Analysis":
+        show_scatter_analysis(filtered_df)
 
 def show_stats_dashboard(df):
     """Display the stats dashboard page"""

@@ -341,6 +341,39 @@ def create_player_performance_bar_chart(comparison_df, filtered_df, player_data,
     
     st.plotly_chart(fig, use_container_width=True, key=f"player_bar_{player_name.lower().replace(' ', '_')}")
 
+def get_performance_color(value, all_values, is_negative_metric=False):
+    """
+    Get background color for a cell based on performance relative to other players
+    
+    Args:
+        value: The metric value for the current player
+        all_values: All metric values for comparison
+        is_negative_metric: If True, lower values are better (e.g., fouls, cards)
+    
+    Returns:
+        CSS color string for background
+    """
+    if len(all_values) <= 1:
+        return 'background-color: #f0f0f0'  # Neutral gray for single player
+    
+    # Calculate percentile rank
+    percentile = (all_values < value).sum() / len(all_values) * 100
+    
+    if is_negative_metric:
+        percentile = 100 - percentile  # Invert for negative metrics
+    
+    # Map percentile to color
+    if percentile >= 80:
+        return 'background-color: #1a9641; color: white; font-weight: bold'  # Dark green
+    elif percentile >= 60:
+        return 'background-color: #73c378; color: white; font-weight: bold'  # Light green
+    elif percentile >= 40:
+        return 'background-color: #f9d057; color: black; font-weight: bold'  # Yellow
+    elif percentile >= 20:
+        return 'background-color: #fc8d59; color: white; font-weight: bold'  # Orange
+    else:
+        return 'background-color: #d73027; color: white; font-weight: bold'  # Red
+
 def show_table_comparison(comparison_df):
     """Show detailed statistics comparison table"""
     
@@ -373,20 +406,30 @@ def show_table_comparison(comparison_df):
                 # Create comparison dataframe for this category
                 category_df = comparison_df[['Player Name'] + available_metrics].copy()
                 
-                # Add ranking for each metric before transpose
-                for metric in available_metrics:
-                    if metric in NEGATIVE_METRICS:
-                        # For negative metrics, lower is better
-                        category_df[f'{metric}_rank'] = category_df[metric].rank(ascending=True)
-                    else:
-                        # For positive metrics, higher is better
-                        category_df[f'{metric}_rank'] = category_df[metric].rank(ascending=False)
-                
                 # Transpose for better comparison view
                 category_df_t = category_df.set_index('Player Name').T
                 
-                # Display the table
-                st.dataframe(category_df_t, use_container_width=True)
+                # Apply color styling to the transposed table
+                def style_metric_cells(df_t):
+                    """Apply color styling to metric cells based on performance"""
+                    # Create a DataFrame for styling
+                    styled_df = df_t.copy()
+                    
+                    # Apply styling to each metric row
+                    def apply_row_styling(row):
+                        metric_name = row.name
+                        is_negative = metric_name in NEGATIVE_METRICS
+                        all_values = row.values
+                        
+                        # Create style for each cell in the row
+                        return [get_performance_color(val, all_values, is_negative) for val in all_values]
+                    
+                    return df_t.style.apply(apply_row_styling, axis=1)
+                
+                styled_table = style_metric_cells(category_df_t)
+                
+                # Display the styled table
+                st.dataframe(styled_table, use_container_width=True)
                 
                 # Add best performer summary for this category
                 st.write(f"**Best Performers in {category}:**")

@@ -52,15 +52,16 @@ class ProfileScorer:
         return [col for col in df.columns if col not in info_columns]
     
     def calculate_category_score(self, df: pd.DataFrame, category: str, weights: Dict[str, float], 
-                                additional_metrics: Dict[str, float] = None) -> Tuple[pd.DataFrame, Dict[str, float]]:
+                                additional_metrics: Dict[str, float] = None, top_n_limit: int = 30) -> Tuple[pd.DataFrame, Dict[str, float]]:
         """
-        Calculate weighted category score for all players
+        Calculate weighted category score for all players, with percentiles based on top N performers
         
         Args:
             df: Player dataframe
             category: Category name
             weights: Dictionary of metric weights
             additional_metrics: Additional metrics with weights
+            top_n_limit: Number of top players to use for percentile calculations (default: 30)
             
         Returns:
             Tuple of (DataFrame with calculated scores and percentiles, normalized weights used)
@@ -115,13 +116,35 @@ class ProfileScorer:
         score_column = f'{category.replace(" ", "_")}'
         result_df[score_column] = weighted_scores
         
-        # Calculate percentile rank
-        percentile_column = f'{score_column}_Percentile'
-        result_df[percentile_column] = result_df[score_column].rank(pct=True) * 100
-        
-        # Add rank column
+        # Sort by score to get rankings
         result_df = result_df.sort_values(score_column, ascending=False).reset_index(drop=True)
         result_df['Rank'] = range(1, len(result_df) + 1)
+        
+        # Calculate percentile rank based on top N players only
+        percentile_column = f'{score_column}_Percentile'
+        top_n = min(top_n_limit, len(result_df))
+        top_players_df = result_df.head(top_n).copy()
+        
+        # Calculate percentiles for top N players (spread 0-100% across top N)
+        top_players_df[percentile_column] = top_players_df[score_column].rank(pct=True) * 100
+        
+        # For remaining players, assign percentiles below the lowest top N percentile
+        if len(result_df) > top_n:
+            min_top_percentile = top_players_df[percentile_column].min()
+            remaining_players = result_df.iloc[top_n:].copy()
+            # Assign percentiles from 0 to min_top_percentile for remaining players
+            remaining_count = len(remaining_players)
+            if remaining_count > 1:
+                remaining_percentiles = np.linspace(0, min_top_percentile * 0.95, remaining_count)
+                remaining_players[percentile_column] = remaining_percentiles
+            else:
+                remaining_players[percentile_column] = 0
+            
+            # Combine top N and remaining players
+            result_df = pd.concat([top_players_df, remaining_players]).sort_values('Rank').reset_index(drop=True)
+        else:
+            # If we have fewer than top_n_limit players, use all players
+            result_df[percentile_column] = result_df[score_column].rank(pct=True) * 100
         
         return result_df[[
             'Rank', 'Player Name', 'Team', 'Position', 'Age', 'Appearances',
@@ -129,7 +152,8 @@ class ProfileScorer:
         ] + list(normalized_weights.keys())], normalized_weights
     
     def get_metric_contributions(self, df: pd.DataFrame, player_idx: int, category: str, 
-                               weights: Dict[str, float], additional_metrics: Dict[str, float] = None) -> Dict[str, float]:
+                               weights: Dict[str, float], additional_metrics: Dict[str, float] = None, 
+                               top_n_limit: int = 30) -> Dict[str, float]:
         """Get individual metric contributions to a player's total score"""
         all_weights = weights.copy()
         if additional_metrics:
@@ -146,10 +170,32 @@ class ProfileScorer:
         else:
             normalized_weights = available_weights
         
-        contributions = {}
+        # Calculate scores for all players to determine top N subset
+        weighted_scores = pd.Series(0.0, index=df.index)
         for metric, weight in normalized_weights.items():
             if metric in df.columns:
                 col_values = df[metric]
+                col_min = col_values.min()
+                col_max = col_values.max()
+                
+                if col_max != col_min:
+                    if metric in self.negative_metrics:
+                        normalized_values = 100 - ((col_values - col_min) / (col_max - col_min) * 100)
+                    else:
+                        normalized_values = (col_values - col_min) / (col_max - col_min) * 100
+                    weighted_scores += normalized_values * weight
+        
+        # Get top N players for metric percentile calculations
+        df_with_scores = df.copy()
+        df_with_scores['temp_score'] = weighted_scores
+        top_n = min(top_n_limit, len(df_with_scores))
+        top_players_df = df_with_scores.nlargest(top_n, 'temp_score')
+        
+        contributions = {}
+        for metric, weight in normalized_weights.items():
+            if metric in df.columns:
+                # Use top N subset for min/max calculations
+                col_values = top_players_df[metric]
                 col_min = col_values.min()
                 col_max = col_values.max()
                 player_value = df.loc[player_idx, metric]
@@ -161,6 +207,9 @@ class ProfileScorer:
                         normalized_value = 100 - ((player_value - col_min) / (col_max - col_min) * 100)
                     else:
                         normalized_value = (player_value - col_min) / (col_max - col_min) * 100
+                    
+                    # Clamp normalized value to 0-100 range
+                    normalized_value = max(0, min(100, normalized_value))
                 
                 contributions[metric] = {
                     'raw_value': player_value,
@@ -172,17 +221,27 @@ class ProfileScorer:
         return contributions
 
 def get_percentile_color(percentile_rank):
-    """Return color code based on percentile range"""
-    if percentile_rank >= 81:
-        return '#1a9641'  # Dark green
-    elif percentile_rank >= 61:
-        return '#73c378'  # Medium green  
-    elif percentile_rank >= 41:
-        return '#f9d057'  # Yellow
-    elif percentile_rank >= 21:
-        return '#fc8d59'  # Light orange
+    """Return color code based on percentile range - optimized for top 30 distribution"""
+    if percentile_rank >= 90:
+        return '#1a5f27'  # Elite dark green
+    elif percentile_rank >= 80:
+        return '#1a9641'  # Excellent green
+    elif percentile_rank >= 70:
+        return '#4caf50'  # Very good green
+    elif percentile_rank >= 60:
+        return '#73c378'  # Good medium green  
+    elif percentile_rank >= 50:
+        return '#a4d65e'  # Above average light green
+    elif percentile_rank >= 40:
+        return '#f9d057'  # Average yellow
+    elif percentile_rank >= 30:
+        return '#ffa726'  # Below average orange
+    elif percentile_rank >= 20:
+        return '#fc8d59'  # Poor light orange
+    elif percentile_rank >= 10:
+        return '#e57373'  # Bad light red
     else:
-        return '#d73027'  # Red
+        return '#d73027'  # Very bad red
 
 def style_weighted_score(val, percentile_rank):
     """Style function for weighted score column"""
@@ -265,7 +324,7 @@ def show_profile_finder(filtered_df):
             cols = st.columns(3)
             for i, metric in enumerate(other_metrics):
                 with cols[i % 3]:
-                    include_metric = st.checkbox(f"Include {metric}", key=f"include_{metric}")
+                    include_metric = st.checkbox(f"{metric}", key=f"include_{metric}")
                     if include_metric:
                         weight = st.slider(
                             f"Weight for {metric}",
@@ -330,8 +389,8 @@ def show_profile_finder(filtered_df):
                 
                 # Enhanced table with pandas styling (CSS replaced by programmatic styling)
                 
-                # Prepare enhanced display dataframe
-                display_df = results_df.copy()
+                # Prepare enhanced display dataframe - show only top 30 players
+                display_df = results_df.head(30).copy()
                 
                 # Add weight information for each metric
                 weight_info = []
@@ -346,7 +405,7 @@ def show_profile_finder(filtered_df):
                 
                 # Define column configuration - reorganized order
                 base_columns = ['Rank', 'Player Name', 'Team', 'Position', 'Age']
-                score_columns = ['Weights Used', score_col, percentile_col]
+                score_columns = [score_col, percentile_col]
                 metric_columns = list(used_weights.keys())
                 
                 # Create column config
@@ -369,12 +428,12 @@ def show_profile_finder(filtered_df):
                         max_value=100,
                         format="%.0f%%",
                         width="medium"
-                    ),
-                    'Weights Used': st.column_config.TextColumn(
-                        "Weights",
-                        help="Weights used for each metric",
-                        width="large"
                     )
+                    # 'Weights Used': st.column_config.TextColumn(
+                    #     "Weights",
+                    #     help="Weights used for each metric",
+                    #     width="large"
+                    # )
                 }
                 
                 # Add configuration for metric columns
@@ -412,15 +471,15 @@ def show_profile_finder(filtered_df):
                 st.markdown("##### 📊 Summary Statistics")
                 col1, col2, col3, col4, col5 = st.columns(5)
                 with col1:
-                    st.metric("Total Players", f"{len(results_df)}")
+                    st.metric("Top 30 Players", f"{len(display_df)}")
                 with col2:
-                    st.metric("Top Score", f"{results_df[score_col].max():.1f}")
+                    st.metric("Top Score", f"{display_df[score_col].max():.1f}")
                 with col3:
-                    st.metric("Average Score", f"{results_df[score_col].mean():.1f}")
+                    st.metric("Average Score", f"{display_df[score_col].mean():.1f}")
                 with col4:
-                    st.metric("Median Score", f"{results_df[score_col].median():.1f}")
+                    st.metric("Median Score", f"{display_df[score_col].median():.1f}")
                 with col5:
-                    top_percentile_count = len(results_df[results_df[percentile_col] >= 80])
+                    top_percentile_count = len(display_df[display_df[percentile_col] >= 80])
                     st.metric("Top 20%", f"{top_percentile_count} players")
                 
                 # Metrics breakdown
@@ -514,16 +573,23 @@ def show_profile_finder(filtered_df):
                     # Metric breakdown
                     st.markdown("##### Metric Contributions")
                     contributions = scorer.get_metric_contributions(
-                        filtered_df, player_idx, category, adjusted_weights, additional_weights
+                        filtered_df, player_idx, category, adjusted_weights, additional_weights, top_n_limit=30
                     )
                     
                     if contributions:
                         # Create enhanced breakdown dataframe
                         breakdown_data = []
                         for metric, data in contributions.items():
-                            # Determine percentile rank for this metric
-                            metric_values = filtered_df[metric]
-                            player_percentile = (metric_values < data['raw_value']).sum() / len(metric_values) * 100
+                            # Determine percentile rank for this metric using top 30 subset
+                            # First get top 30 players by overall score for this metric context
+                            score_col = f'{category.replace(" ", "_")}'
+                            top_30_for_metric = results_df.head(30)
+                            
+                            # Get metric values from the original filtered_df for these top 30 players
+                            top_30_names = top_30_for_metric['Player Name'].tolist()
+                            top_30_metric_values = filtered_df[filtered_df['Player Name'].isin(top_30_names)][metric]
+                            
+                            player_percentile = (top_30_metric_values < data['raw_value']).sum() / len(top_30_metric_values) * 100
                             if metric in scorer.negative_metrics:
                                 player_percentile = 100 - player_percentile
                             
@@ -541,16 +607,7 @@ def show_profile_finder(filtered_df):
                         # Apply color coding to the breakdown table
                         def highlight_percentile(row):
                             percentile = float(row['Percentile'].replace('%', ''))
-                            if percentile >= 81:
-                                color = '#1a9641'
-                            elif percentile >= 61:
-                                color = '#73c378'
-                            elif percentile >= 41:
-                                color = '#f9d057'
-                            elif percentile >= 21:
-                                color = '#fc8d59'
-                            else:
-                                color = '#d73027'
+                            color = get_percentile_color(percentile)
                             return [f'background-color: {color}; color: white; font-weight: bold' if col == 'Percentile' else '' for col in row.index]
                         
                         styled_breakdown = breakdown_df.style.apply(highlight_percentile, axis=1)
@@ -564,11 +621,16 @@ def show_profile_finder(filtered_df):
                             title=f"Weighted Metric Contributions for {selected_player}",
                             color=[float(x.replace('%', '')) for x in breakdown_df['Percentile']],
                             color_continuous_scale=[
-                                [0.0, '#d73027'],
-                                [0.2, '#fc8d59'], 
-                                [0.4, '#f9d057'],
-                                [0.6, '#73c378'],
-                                [1.0, '#1a9641']
+                                [0.0, '#d73027'],   # Very bad red
+                                [0.1, '#e57373'],   # Bad light red
+                                [0.2, '#fc8d59'],   # Poor light orange
+                                [0.3, '#ffa726'],   # Below average orange
+                                [0.4, '#f9d057'],   # Average yellow
+                                [0.5, '#a4d65e'],   # Above average light green
+                                [0.6, '#73c378'],   # Good medium green
+                                [0.7, '#4caf50'],   # Very good green
+                                [0.8, '#1a9641'],   # Excellent green
+                                [1.0, '#1a5f27']    # Elite dark green
                             ],
                             labels={'color': 'Percentile', 'y': 'Weighted Contribution'}
                         )
