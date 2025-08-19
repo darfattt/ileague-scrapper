@@ -465,44 +465,44 @@ def create_comprehensive_stats_table(player_data: pd.Series, league_df: pd.DataF
     if len(df) > 0:
         st.markdown("### 📈 Performance Statistics")
         
-        for idx, row in df.iterrows():
-            col1, col2, col3, col4, col5, col6 = st.columns([2, 1, 1, 2, 1.5, 1.5])
+        #for idx, row in df.iterrows():
+            # col1, col2, col3, col4, col5, col6 = st.columns([2, 1, 1, 2, 1.5, 1.5])
             
-            with col1:
-                st.write(f"**{row['Metric']}**")
+            # with col1:
+            #     st.write(f"**{row['Metric']}**")
             
-            with col2:
-                st.write(row['Player Value'])
+            # with col2:
+            #     st.write(row['Player Value'])
             
-            with col3:
-                # Color-coded rank
-                rank_color = get_rank_color(row['Rank Percentile'])
-                st.markdown(f"<span style='color: {rank_color}; font-weight: bold;'>{row['Rank Text']}</span>", 
-                           unsafe_allow_html=True)
+            # with col3:
+            #     # Color-coded rank
+            #     rank_color = get_rank_color(row['Rank Percentile'])
+            #     st.markdown(f"<span style='color: {rank_color}; font-weight: bold;'>{row['Rank Text']}</span>", 
+            #                unsafe_allow_html=True)
             
-            with col4:
-                # Progress bar for percentile
-                progress_color = get_percentile_color(row['Percentile'])
-                st.markdown(f"""
-                    <div style='background-color: #e0e0e0; border-radius: 10px; height: 20px; width: 100%;'>
-                        <div style='background-color: {progress_color}; height: 20px; border-radius: 10px; width: {row['Percentile']}%; 
-                                    display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;'>
-                            {row['Percentile']:.1f}%
-                        </div>
-                    </div>
-                """, unsafe_allow_html=True)
+            # with col4:
+            #     # Progress bar for percentile
+            #     progress_color = get_percentile_color(row['Percentile'])
+            #     st.markdown(f"""
+            #         <div style='background-color: #e0e0e0; border-radius: 10px; height: 20px; width: 100%;'>
+            #             <div style='background-color: {progress_color}; height: 20px; border-radius: 10px; width: {row['Percentile']}%; 
+            #                         display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;'>
+            #                 {row['Percentile']:.1f}%
+            #             </div>
+            #         </div>
+            #     """, unsafe_allow_html=True)
             
-            with col5:
-                st.write(row['League Average'])
+            # with col5:
+            #     st.write(row['League Average'])
             
-            with col6:
-                vs_avg = row['vs Average']
-                vs_color = '#28a745' if '+' in vs_avg and vs_avg != 'N/A' else '#dc3545' if '-' in vs_avg else '#6c757d'
-                st.markdown(f"<span style='color: {vs_color}; font-weight: bold;'>{vs_avg}</span>", 
-                           unsafe_allow_html=True)
+            # with col6:
+            #     vs_avg = row['vs Average']
+            #     vs_color = '#28a745' if '+' in vs_avg and vs_avg != 'N/A' else '#dc3545' if '-' in vs_avg else '#6c757d'
+            #     st.markdown(f"<span style='color: {vs_color}; font-weight: bold;'>{vs_avg}</span>", 
+            #                unsafe_allow_html=True)
         
         # Add headers
-        st.markdown("---")
+        #st.markdown("---")
         col1, col2, col3, col4, col5, col6 = st.columns([2, 1, 1, 2, 1.5, 1.5])
         with col1:
             st.markdown("**Metric**")

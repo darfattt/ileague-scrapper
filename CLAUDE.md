@@ -194,6 +194,11 @@ python team_players_scraper.py
 
 ### Regular Data Updates (Every Gameweek End)
 ```bash
+# 0. sequence update
+python team_players_scraper.py
+python player_scraper.py --all --csv-only
+python combine_player_data.py
+
 # 1. Update club statistics
 python scraper.py --all --csv-only --output football_stats.csv
 

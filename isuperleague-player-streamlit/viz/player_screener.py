@@ -194,7 +194,7 @@ def create_heatmap_table(df: pd.DataFrame, heatmap_columns: List[str], reference
         for col in heatmap_columns:
             if col in df.columns:
                 # Calculate percentiles for coloring
-                col_values = reference_df[col].dropna()
+                col_values = df[col].dropna()
                 if len(col_values) > 0:
                     # Create color mapping based on percentiles
                     def color_metric(val):

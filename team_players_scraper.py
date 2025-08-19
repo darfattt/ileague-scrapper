@@ -30,7 +30,7 @@ class TeamPlayersScraper:
         """Load teams data from 25_26_teams.json"""
         try:
             script_dir = Path(__file__).parent
-            json_file = script_dir / '25_26_teams_test.json'
+            json_file = script_dir / '25_26_teams.json'
             
             with open(json_file, 'r', encoding='utf-8') as f:
                 teams_data = json.load(f)
@@ -326,7 +326,7 @@ class TeamPlayersScraper:
         
         return teams_info
     
-    def save_to_json(self, teams_info, filename='data/teams_info_biak_bali.json'):
+    def save_to_json(self, teams_info, filename='data/teams_info.json'):
         """Save teams info to JSON file"""
         try:
             # Ensure data directory exists

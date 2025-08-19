@@ -15,9 +15,23 @@
       "Bash(mkdir:*)",
       "Bash(grep:*)",
       "Bash(mv:*)",
-      "Bash(streamlit run:*)"
+      "Bash(streamlit run:*)",
+      "Bash(rm:*)",
+      "Bash(if ! grep -q \"st.sidebar.selectbox\" pages/player_comparison.py)",
+      "Bash(then echo \"✅ Confirmed - no duplicate filters\")",
+      "Bash(else echo \"❌ Found duplicate filters\")",
+      "Bash(fi)",
+      "Bash(cp:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:huggingface.co)",
+      "Bash(sudo apt:*)",
+      "Bash(sudo apt install:*)",
+      "Bash(ai_env/Scripts/pip.exe --version)"
     ],
     "deny": [],
-    "ask": []
+    "ask": [],
+    "additionalDirectories": [
+      "/usr/bin"
+    ]
   }
 }
