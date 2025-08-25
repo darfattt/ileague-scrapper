@@ -68,7 +68,7 @@
         {
           "name": "ARKHAN",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/arkhan_fikri?token=UDAuODExMTcyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22271118.png",
@@ -78,7 +78,7 @@
         {
           "name": "PAULINHO",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/paulo_roberto_moccelin?token=UDAuMjg5MzcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25073982.png",
@@ -88,7 +88,7 @@
         {
           "name": "VALDECI M.",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/valdeci_moreira_da_silva?token=UDAuNjcxOTcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25079176.png",
@@ -98,7 +98,7 @@
         {
           "name": "S. TUHAREA",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/salim_akbar_tuharea?token=UDAuMTQyNDAzMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23304241.png",
@@ -118,7 +118,7 @@
         {
           "name": "BALINSA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/samuel_gideon_balinsa?token=UDAuNzYxMzgxMTE3MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1711183167.png",
@@ -133,6 +133,16 @@
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/jayus_hariono?token=UDAuMjExMzU3OTE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1619753112.png",
           "fullName": "JAYUS HARIONO",
+          "posisi": "TENGAH"
+        },
+        {
+          "name": "F. ARZIDAN",
+          "negara": "INDONESIA",
+          "penampilan": 0,
+          "usia": 21,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/fikri_arjidan?token=UDAuMjA3ODkxMTI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21198702.png",
+          "fullName": "FIKRI ARJIDAN",
           "posisi": "TENGAH"
         },
         {
@@ -158,7 +168,7 @@
         {
           "name": "ACHMAD M.",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/achmad_maulana_syarif?token=UDAuMTc5MDgyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22280971.png",
@@ -178,7 +188,7 @@
         {
           "name": "I. PULEIO",
           "negara": "ARGENTINA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 37,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ian_lucas_puleio_araya?token=UDAuNDY3OTcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25079764.png",
@@ -218,7 +228,7 @@
         {
           "name": "M.BLADE",
           "negara": "BRAZIL",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/matheus_da_conceiÇÃo_nascimento?token=UDAuMTQ3OTQxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25149741.png",
@@ -228,7 +238,7 @@
         {
           "name": "L. GUSTAVO",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/luiz_gustavo_tavares_conde?token=UDAuNzk0NzkwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25097497.png",
@@ -248,7 +258,7 @@
         {
           "name": "BETINHO F",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/roberto_pimenta_vinagre_filho?token=UDAuMDI5MjUyNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24252920.png",
@@ -258,7 +268,7 @@
         {
           "name": "ADI SATRYO",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 24,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhammad_adi_satryo?token=UDAuMDY4MDM2MTEwMg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2011630860.png",
@@ -278,7 +288,7 @@
         {
           "name": "DENDI S.",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 35,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/dendy_santoso?token=UDAuMDE3Mg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2710.png",
@@ -308,7 +318,7 @@
         {
           "name": "B. SETIAWAN",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/bayu_setiawan?token=UDAuMzI1NjQyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22246523.png",
@@ -318,7 +328,7 @@
         {
           "name": "ALFARIZIE",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 35,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/johan_ahmat_farizi?token=UDAuMjk2Mg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2692.png",
@@ -328,7 +338,7 @@
         {
           "name": "DALBERTO",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/dalberto_luan_belo?token=UDAuMzgxNDUwMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23054183.png",
@@ -365,7 +375,7 @@
         {
           "name": "HAUPTMEIJER",
           "negara": "BELANDA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/mike_hauptmeijer?token=UDAuNjEzMzcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25073316.png",
@@ -375,7 +385,7 @@
         {
           "name": "JOÃO FERRARI",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/joao_vitor_ferrari_silva?token=UDAuNDUzODgwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24088354.png",
@@ -385,7 +395,7 @@
         {
           "name": "KADEK AREL",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 20,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/kadek_arel_priyatna?token=UDAuMjUwMzcxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21173052.png",
@@ -405,7 +415,7 @@
         {
           "name": "WILSON",
           "negara": "AUSTRALIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/brandon_james_wilson?token=UDAuMDA0MDEzNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24310400.png",
@@ -415,7 +425,7 @@
         {
           "name": "GOPPEL",
           "negara": "BELANDA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/thijmen_goppel?token=UDAuODkzOTcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25079398.png",
@@ -425,7 +435,7 @@
         {
           "name": "KOPITOVIC",
           "negara": "MONTENEGRO",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/boris_kopitovic?token=UDAuNjM5NDUxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25154936.png",
@@ -435,7 +445,7 @@
         {
           "name": "MUSTAFIC",
           "negara": "LUXEMBOURG",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/mirza_mustafic?token=UDAuMDY2MTcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25071660.png",
@@ -455,7 +465,7 @@
         {
           "name": "RECEVEUR",
           "negara": "BELANDA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 34,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/tim_charles_pieter_receveur?token=UDAuOTA1MTcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25071509.png",
@@ -485,7 +495,7 @@
         {
           "name": "KADEK AGUNG",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/i_kadek_agung_widnyana_putra?token=UDAuNTIzNjQwOTE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1619046325.png",
@@ -495,7 +505,7 @@
         {
           "name": "RAVEN",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 20,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/jens_raven?token=UDAuNjgzOTYwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25069386.png",
@@ -515,7 +525,7 @@
         {
           "name": "RICKY FAJRIN",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ricky_fajrin_saputra?token=UDAuNTg1Nw==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE7585.png",
@@ -535,7 +545,7 @@
         {
           "name": "ANDHIKA W.",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/i_made_andhika_pradana_wijaya?token=UDAuODc1NjExMTYx",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE161116578.png",
@@ -545,7 +555,7 @@
         {
           "name": "IRFAN JAYA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/irfan_jaya?token=UDAuODQ1NDc0NTE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1615474548.png",
@@ -555,7 +565,7 @@
         {
           "name": "MAOURI",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 19,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/maouri_ananda_yves_ramli_simon?token=UDAuNTczNDAxMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22104375.png",
@@ -575,7 +585,7 @@
         {
           "name": "R. ARJUNA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rahmat_arjuna_reski?token=UDAuMjQyMjcyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22272242.png",
@@ -615,7 +625,7 @@
         {
           "name": "REYNER",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 20,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/reyner_immanuelo_barusu?token=UDAuNzM4NjcxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21176837.png",
@@ -662,7 +672,7 @@
         {
           "name": "PUTU GEDE",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/i_putu_gede_juni_antara?token=UDAuMjc1Nw==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE7572.png",
@@ -672,7 +682,7 @@
         {
           "name": "LEO SILVA",
           "negara": "BRAZIL",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 25,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/vinicius_leonardo_da_silva?token=UDAuODI4NzIwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24027828.png",
@@ -712,7 +722,7 @@
         {
           "name": "GINANJAR",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ginanjar_wahyu_ramadhani?token=UDAuODYxMDUxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21150168.png",
@@ -722,7 +732,7 @@
         {
           "name": "SPASOJEVIC",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 38,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ilija_spasojevic?token=UDAuNTMzNg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE6335.png",
@@ -732,7 +742,7 @@
         {
           "name": "NIETO",
           "negara": "COLOMBIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rafael_andrÉs_nieto_rondÓn?token=UDAuNzczMTcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25071377.png",
@@ -752,7 +762,7 @@
         {
           "name": "AWAN SETHO",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/awan_setho_raharjo?token=UDAuNDg1Nw==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE7584.png",
@@ -782,7 +792,7 @@
         {
           "name": "DAMJANOVIC",
           "negara": "SERBIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/slavko_damjanovic?token=UDAuODY2MzcwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24073668.png",
@@ -792,7 +802,7 @@
         {
           "name": "SADAT",
           "negara": "FINLAND",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/fareed_sadat?token=UDAuNTkzMTkwMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23091395.png",
@@ -802,7 +812,7 @@
         {
           "name": "TM. ICHSAN",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/t._m_ichsan?token=UDAuOTk3MTMwNjE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1616031799.png",
@@ -812,7 +822,7 @@
         {
           "name": "SANI R.F",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/sani_rizki_fauzi?token=UDAuNDE1NDY1NDE3MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1714564514.png",
@@ -842,7 +852,7 @@
         {
           "name": "W. SUBO SETO",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/wahyu_subo_seto?token=UDAuNjYwNQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE5066.png",
@@ -892,7 +902,7 @@
         {
           "name": "ILIC",
           "negara": "CROATIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/christian_ilic?token=UDAuOTg1MDcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25070589.png",
@@ -902,7 +912,7 @@
         {
           "name": "PLAZONJA",
           "negara": "CROATIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/stjepan_plazonja?token=UDAuNzE4NzcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25077817.png",
@@ -912,7 +922,7 @@
         {
           "name": "FERARRI",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhammad_ferarri?token=UDAuODQ0OTA4MjEwMg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2012809448.png",
@@ -942,7 +952,7 @@
         {
           "name": "FRENGKY MISSA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/frengky_deaner_missa?token=UDAuMjAwOTIxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21129002.png",
@@ -952,7 +962,7 @@
         {
           "name": "RACIC",
           "negara": "MONTENEGRO",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/dejan_racic?token=UDAuMzU5NTcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25075953.png",
@@ -989,7 +999,7 @@
         {
           "name": "NADEO WINATA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/nadeo_arga_winata?token=UDAuNDEzNzQ3NDE4MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1814747314.png",
@@ -1019,7 +1029,7 @@
         {
           "name": "IKHSAN NUL",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 23,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ikhsan_nul_zikrak?token=UDAuMzYzNzMwMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21037363.png",
@@ -1029,7 +1039,7 @@
         {
           "name": "M. SOUZA",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/maicon_de_souza_da_silva?token=UDAuOTkxNTcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25075199.png",
@@ -1039,7 +1049,7 @@
         {
           "name": "KEI",
           "negara": "JAPAN",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/kei_hirose?token=UDAuMjE4MTMyMzE5MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1913231812.png",
@@ -1049,7 +1059,7 @@
         {
           "name": "VINICIUS",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/joel_vinicius_silva_dos_anjos?token=UDAuNDc4MDcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25070874.png",
@@ -1059,7 +1069,7 @@
         {
           "name": "PERALTA",
           "negara": "ARGENTINA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/mariano_ezequiel_peralta_bauer?token=UDAuMTI3MDMxNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24130721.png",
@@ -1077,9 +1087,19 @@
           "posisi": "DEPAN"
         },
         {
+          "name": "RAYHAN UTINA",
+          "negara": "INDONESIA",
+          "penampilan": 0,
+          "usia": 21,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhamad_rayhan_putra_utina?token=UDAuMDEzNjkwMTI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21096310.png",
+          "fullName": "MUHAMAD RAYHAN PUTRA UTINA",
+          "posisi": "TENGAH"
+        },
+        {
           "name": "M. FAJAR F",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 23,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhammad_fajar_fathurrahman?token=UDAuNTU0NjYzOTE4MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1819366455.png",
@@ -1099,7 +1119,7 @@
         {
           "name": "KOMANG. T",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 23,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/komang_teguh_trisnanda?token=UDAuNjIyNjA1NDExMg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2114506226.png",
@@ -1109,7 +1129,7 @@
         {
           "name": "O. MAIKET",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 18,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/camara_ousmane_maiket?token=UDAuMTUyOTUwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24059251.png",
@@ -1119,7 +1139,7 @@
         {
           "name": "VILLA",
           "negara": "COLOMBIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/juan_felipe_villa_ruiz?token=UDAuMTcyODcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25078271.png",
@@ -1129,7 +1149,7 @@
         {
           "name": "NDUWARUGIRA",
           "negara": "BURUNDI",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/christophe_nduwarugira?token=UDAuNTgxMDYwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24060185.png",
@@ -1139,7 +1159,7 @@
         {
           "name": "CAXAMBU",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/westherley_garcia_nogueira?token=UDAuOTc1MTcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25071579.png",
@@ -1179,7 +1199,7 @@
         {
           "name": "COUTINHO",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/douglas_coutinho_gomes__de_souza?token=UDAuNjQ3MTcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25071746.png",
@@ -1189,7 +1209,7 @@
         {
           "name": "RIVALDO P",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rivaldo_enero_pakpahan?token=UDAuMzk3OTIxMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23129793.png",
@@ -1259,11 +1279,31 @@
         {
           "name": "DWIKY ARIS",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muh._dwiky_hardiansyah?token=UDAuMzIyNDUxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21154223.png",
           "fullName": "MUH. DWIKY HARDIANSYAH",
+          "posisi": "TENGAH"
+        },
+        {
+          "name": "H.A JUSUF",
+          "negara": "INDONESIA",
+          "penampilan": 0,
+          "usia": 27,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/habibi_a._jusuf?token=UDAuNTQxNTMyMTI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21235145.png",
+          "fullName": "HABIBI A. JUSUF",
+          "posisi": "DEPAN"
+        },
+        {
+          "name": "ASGAL HABIB",
+          "negara": "INDONESIA",
+          "penampilan": 0,
+          "usia": 21,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/asgal_habib_altarik?token=UDAuMDcyMDkyMzI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23290270.png",
+          "fullName": "ASGAL HABIB ALTARIK",
           "posisi": "TENGAH"
         },
         {
@@ -1289,7 +1329,7 @@
         {
           "name": "M. SIHRAN",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/m_sihran_h_amarullah?token=UDAuODI1ODI0MTE4MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1811428528.png",
@@ -1593,7 +1633,7 @@
         {
           "name": "NOVAN S.",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 36,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/novan_setya_sasongko?token=UDAuNTQxMg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2145.png",
@@ -1603,7 +1643,7 @@
         {
           "name": "P.MONTEIRO",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/pedro_filipe_tinoco_monteiro?token=UDAuMzg4NDAxNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24104883.png",
@@ -1613,7 +1653,7 @@
         {
           "name": "WEHRMANN",
           "negara": "NETHERLANDS",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/jordy_hendrik_nicolaus_wehrmann?token=UDAuMzQ5OTkwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24099943.png",
@@ -1623,7 +1663,7 @@
         {
           "name": "PALIC",
           "negara": "BOSNIA AND HERZEGOVINA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/kerim_palic?token=UDAuMjA3MDUxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25150702.png",
@@ -1633,7 +1673,7 @@
         {
           "name": "RUXI",
           "negara": "SPAIN",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/roger_bonet_badia?token=UDAuMTg3ODgwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24088781.png",
@@ -1653,7 +1693,7 @@
         {
           "name": "VALERI",
           "negara": "UKRAINE",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/valerii_hryshyn?token=UDAuNDYwMDgyNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25280064.png",
@@ -1663,7 +1703,7 @@
         {
           "name": "IRAN JUNIOR",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/iran_da_conceicao_goncalves_junior?token=UDAuMzE3OTkwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24099713.png",
@@ -1673,7 +1713,7 @@
         {
           "name": "LULINHA",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 35,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/luiz_marcelo_morais_dos_reis?token=UDAuMTI4OTAyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22209821.png",
@@ -1683,7 +1723,7 @@
         {
           "name": "FERIAN RIZKI",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ferian_rizki_maulana?token=UDAuOTE0MTgyMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23281419.png",
@@ -1723,7 +1763,7 @@
         {
           "name": "TAUFANY",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 23,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/m_taufany_muslihuddin?token=UDAuMzg2NDkyMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21294683.png",
@@ -1773,7 +1813,7 @@
         {
           "name": "MISWAR SAPUTRA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/miswar_saputra_nurdin?token=UDAuODc2NDk3NTE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1615794678.png",
@@ -1823,7 +1863,7 @@
         {
           "name": "NURDIANSYAH",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/nur_diansyah?token=UDAuMjYxMDEwMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21010162.png",
@@ -1833,7 +1873,7 @@
         {
           "name": "TAUFIK",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/taufik_hidayat?token=UDAuNDc2Mw==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE3674.png",
@@ -1873,7 +1913,7 @@
         {
           "name": "SANDRO",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 23,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/fransiskus_alesandro_nimo_olepue?token=UDAuNTI0MTYyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22261425.png",
@@ -1893,7 +1933,7 @@
         {
           "name": "BALOTELLI",
           "negara": "REPUBLIK GUINEA BISSAU",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/albertine_joao_pereira?token=UDAuMTk4MTAxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25101891.png",
@@ -1903,7 +1943,7 @@
         {
           "name": "AJI KUSUMA",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/aji_kusuma?token=UDAuNTQ5MzkyNjE3MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1716293945.png",
@@ -1920,7 +1960,7 @@
         {
           "name": "ANGGA. S",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/angga_saputro?token=UDAuODc4Ng==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE6878.png",
@@ -1930,7 +1970,7 @@
         {
           "name": "G. FRANCA",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/gustavo_moreno_de_franca?token=UDAuMTE1OTkwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24099511.png",
@@ -1940,7 +1980,7 @@
         {
           "name": "I. INOCENCIO",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/igor_inocencio_de_oliveira?token=UDAuNzY2NTgwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25085667.png",
@@ -1950,7 +1990,7 @@
         {
           "name": "CIRO",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 36,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ciro_henrique_alves_ferreira_e_silva?token=UDAuNzYxOTU0ODE5MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1918459167.png",
@@ -1960,7 +2000,7 @@
         {
           "name": "VICO",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/vinicius_duarte?token=UDAuNDAyMjkwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25092204.png",
@@ -1970,7 +2010,7 @@
         {
           "name": "TYRONNE",
           "negara": "SPAIN",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 34,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/tyronne_gustavo_del_pino_ramos?token=UDAuNDQ1MjgyMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23282544.png",
@@ -1990,7 +2030,7 @@
         {
           "name": "Y. SAYURI",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/yakob_sayuri?token=UDAuMzcxNTY4NTE5MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1915865173.png",
@@ -2010,7 +2050,7 @@
         {
           "name": "ANGULO",
           "negara": "COLOMBIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/wbeymar_angulo_mosquera?token=UDAuODQ0MDMyNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24230448.png",
@@ -2020,7 +2060,7 @@
         {
           "name": "DAVID DA SILVA",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 36,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/david_aparecido_da_silva?token=UDAuMDk4MTE4MjE4MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1812811890.png",
@@ -2040,7 +2080,7 @@
         {
           "name": "FRETS BUTUAN",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/frets_listanto_butuan?token=UDAuNzY1Mjg0NTE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1615482567.png",
@@ -2060,7 +2100,7 @@
         {
           "name": "YAN SAYURI",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/yance_sayuri?token=UDAuNjg0ODQ0MzExMg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2113448486.png",
@@ -2090,7 +2130,7 @@
         {
           "name": "SEPTIAN DAVID",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/septian_david_maulana?token=UDAuNTk1Nw==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE7595.png",
@@ -2110,7 +2150,7 @@
         {
           "name": "RIYAN. A",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/riyan_ardiansyah?token=UDAuNTUyOTk3NTE3MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1715799255.png",
@@ -2120,7 +2160,7 @@
         {
           "name": "CHECHU",
           "negara": "SPAIN",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/jesus_maria_meneses_sabater?token=UDAuNzE4MzkyNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24293817.png",
@@ -2140,7 +2180,7 @@
         {
           "name": "TRI SETIAWAN",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/tri_setiawan?token=UDAuNzIyMDcyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22270227.png",
@@ -2150,7 +2190,7 @@
         {
           "name": "LESTUSEN. M",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/manahati_lestusen?token=UDAuNjQzNTEzMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21315346.png",
@@ -2207,7 +2247,7 @@
         {
           "name": "CATUR P.",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/arief_catur_pamungkas?token=UDAuMDYyODI1MTkx",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE191528260.png",
@@ -2217,7 +2257,7 @@
         {
           "name": "DIMOV",
           "negara": "BULGARIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/dime_dimov?token=UDAuNTE0NTkwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25095415.png",
@@ -2227,7 +2267,7 @@
         {
           "name": "MITREVSKI",
           "negara": "MAKEDONIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 34,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/risto_mitrevski?token=UDAuNTE1NzgxMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22187515.png",
@@ -2237,7 +2277,7 @@
         {
           "name": "RIVERA",
           "negara": "MEKSIKO",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/francisco_israel_rivera_davalos?token=UDAuMTc2NTgyMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23285671.png",
@@ -2267,7 +2307,7 @@
         {
           "name": "BRUNO MOREIRA",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/bruno_moreira_soares?token=UDAuMzM0MTEwMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21011433.png",
@@ -2277,7 +2317,7 @@
         {
           "name": "PEROVIC",
           "negara": "MONTENEGRO",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/mihailo_perovic?token=UDAuMzM1OTYwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25069533.png",
@@ -2297,7 +2337,7 @@
         {
           "name": "ALFREDO TATA",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/mikael_alfredo_tata?token=UDAuOTc5NzAzMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23307979.png",
@@ -2317,7 +2357,7 @@
         {
           "name": "ERNANDO",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 23,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ernando_ari_sutaryadi?token=UDAuNTkxMDAyNTE4MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1815200195.png",
@@ -2327,7 +2367,7 @@
         {
           "name": "GALI FREITAS",
           "negara": "TIMOR LESTE",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/paulo_domingos_gali_da_costa_freitas?token=UDAuMDI2OTAzMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23309620.png",
@@ -2347,7 +2387,7 @@
         {
           "name": "LELIS",
           "negara": "BRAZIL",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/leonardo_silva_lelis?token=UDAuNjA0NDcyMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21274406.png",
@@ -2357,7 +2397,7 @@
         {
           "name": "DIMAS .W",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 18,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/dimas_wicaksono_putra_rahman?token=UDAuNjU0NTIxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21125456.png",
@@ -2381,8 +2421,8 @@
           "usia": 25,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/koko_ari_araya?token=UDAuNjc0MjY2NDE4MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1814662476.png",
-          "fullName": "",
-          "posisi": ""
+          "fullName": "KOKO ARI ARAYA",
+          "posisi": "BELAKANG"
         },
         {
           "name": "ILHAM",
@@ -2417,7 +2457,7 @@
         {
           "name": "SADIDA",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 20,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/sadida_nugraha_putra?token=UDAuNjAyODcyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22278206.png",
@@ -2437,7 +2477,7 @@
         {
           "name": "TONI F",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 20,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/toni_firmansyah?token=UDAuNTM4MjAyMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21202835.png",
@@ -2447,7 +2487,7 @@
         {
           "name": "MALIK RISALDI",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/malik_risaldi?token=UDAuOTQ2Ng==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE6649.png",
@@ -2467,7 +2507,7 @@
         {
           "name": "RAICKOVIC",
           "negara": "MONTENEGRO",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/milos_raickovic?token=UDAuNjg1MjYwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25062586.png",
@@ -2477,7 +2517,7 @@
         {
           "name": "TUMBAS",
           "negara": "SERBIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/dejan_tumbas?token=UDAuNTcyMzkwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25093275.png",
@@ -2504,7 +2544,7 @@
         {
           "name": "JULIO C",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/julio_cesar_de_freitas_filho?token=UDAuODA1OTEzNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25319508.png",
@@ -2514,7 +2554,7 @@
         {
           "name": "KAKANG",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/kakang_rudianto?token=UDAuMjg3NjcwODEwMg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2018076782.png",
@@ -2524,7 +2564,7 @@
         {
           "name": "ROBI DARWIS",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/robi_darwis?token=UDAuNTkwNzAyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22207095.png",
@@ -2544,7 +2584,7 @@
         {
           "name": "GUAYCOCHEA",
           "negara": "ARGENTINA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/luciano_guaycochea?token=UDAuMjgwMDUyNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25250082.png",
@@ -2554,7 +2594,7 @@
         {
           "name": "D. DRAJAD",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhammad_dimas_drajad?token=UDAuNzgwNDEzMTE4MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1811314087.png",
@@ -2564,7 +2604,7 @@
         {
           "name": "WILIAM M.",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/wiliam_moreira_da_silva_marcilio?token=UDAuMTk5NzgwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24087991.png",
@@ -2594,7 +2634,7 @@
         {
           "name": "FEBRI HARIYADI",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/febri_hariyadi?token=UDAuNDUwNg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE6054.png",
@@ -2604,7 +2644,7 @@
         {
           "name": "T. PAKU ALAM",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/teja_paku_alam?token=UDAuMjcwNg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE6072.png",
@@ -2614,7 +2654,7 @@
         {
           "name": "ADAM ALIS",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/adam_alis_setyano?token=UDAuMzk2Ng==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE6693.png",
@@ -2634,7 +2674,7 @@
         {
           "name": "KLOK",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/marc_anthony_klok?token=UDAuMjI3MDQyOTE3MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1719240722.png",
@@ -2674,7 +2714,7 @@
         {
           "name": "MATRICARDI",
           "negara": "ARGENTINA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/patricio_martin_matricardi?token=UDAuNTg2NzcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25077685.png",
@@ -2684,7 +2724,7 @@
         {
           "name": "PUTROS",
           "negara": "DENMARK",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/frans_dhia_jirjis_putros?token=UDAuMzA5MTgwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25081903.png",
@@ -2694,7 +2734,7 @@
         {
           "name": "R. HEHANUSSA",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/m._rezaldi_hehanussa?token=UDAuMTA3MTgxNzE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1617181701.png",
@@ -2724,7 +2764,7 @@
         {
           "name": "SADDIL",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/saddil_ramdani?token=UDAuNDk3ODM2NjE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1616638794.png",
@@ -2764,7 +2804,7 @@
         {
           "name": "BARROS",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/uilliam_barros_pereira?token=UDAuNjk2MDEzNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25310696.png",
@@ -2784,7 +2824,7 @@
         {
           "name": "RAMON",
           "negara": "BRAZIL",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ramon_de_andrade_souza?token=UDAuNTgwNTgwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25085085.png",
@@ -2801,7 +2841,7 @@
         {
           "name": "C. EDUARDO",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/carlos_eduardo_soares_mota?token=UDAuODMxNjMxNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24136138.png",
@@ -2811,7 +2851,7 @@
         {
           "name": "RIO FAHMI",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 24,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ilham_rio_fahmi?token=UDAuODYzNTEzMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21315368.png",
@@ -2831,7 +2871,7 @@
         {
           "name": "R. RIDHO",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 24,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rizky_ridho_ramadhani?token=UDAuNjE1MTk0ODE4MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1818491516.png",
@@ -2861,7 +2901,7 @@
         {
           "name": "WITAN",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 24,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/witan_sulaeman?token=UDAuNzA4NjIyMTE5MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1911226807.png",
@@ -2871,7 +2911,7 @@
         {
           "name": "GUSTAVO FRANCA",
           "negara": "ITALY",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/gustavo_franca_amadio?token=UDAuOTE5ODYwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25068919.png",
@@ -2891,7 +2931,7 @@
         {
           "name": "SOUSA",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/van_basty_sousa_e_silva?token=UDAuOTc2MDcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25070679.png",
@@ -2901,7 +2941,7 @@
         {
           "name": "CARDOSO",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/alan_cardoso_de_andrade?token=UDAuMTkwOTYwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25069091.png",
@@ -2941,7 +2981,7 @@
         {
           "name": "AMAT",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/jordi_amat_maas?token=UDAuODM4MDQyNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25240838.png",
@@ -2999,6 +3039,16 @@
           "posisi": "TENGAH"
         },
         {
+          "name": "BAIHAQI RIFAI",
+          "negara": "INDONESIA",
+          "penampilan": 0,
+          "usia": 19,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhammad_baihaqi_rifai?token=UDAuNzQzNDUxMTI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21154347.png",
+          "fullName": "MUHAMMAD BAIHAQI RIFAI",
+          "posisi": "BELAKANG"
+        },
+        {
           "name": "ADITYA",
           "negara": "INDONESIA",
           "penampilan": 0,
@@ -3011,7 +3061,7 @@
         {
           "name": "NICO. S",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/alfriyanto_nico_saputro?token=UDAuNjQxNTk5OTE5MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1919995146.png",
@@ -3021,7 +3071,7 @@
         {
           "name": "HANNAN",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhammad_rayhan_hannan?token=UDAuNDUyNTkwMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21095254.png",
@@ -3059,9 +3109,19 @@
           "posisi": "TENGAH"
         },
         {
+          "name": "TUBARÃO",
+          "negara": "BRAZIL",
+          "penampilan": 1,
+          "usia": 30,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/bruno_nunes_de_barros?token=UDAuNzI5NDMyNTI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25234927.png",
+          "fullName": "BRUNO NUNES DE BARROS",
+          "posisi": "DEPAN"
+        },
+        {
           "name": "FABIO CALONEGO",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/fabio_da_silva_calonego?token=UDAuNDU0ODgwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25088454.png",
@@ -3071,7 +3131,7 @@
         {
           "name": "EKSEL J R",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/eksel_timothy_joseph_runtukahu?token=UDAuMDUwODgxMTE3MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1711188050.png",
@@ -3081,7 +3141,7 @@
         {
           "name": "MAXWELL",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/emaxwell_souza_de_lima?token=UDAuNzk2MTgwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25081697.png",
@@ -3108,7 +3168,7 @@
         {
           "name": "DOUGLAS",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/douglas_nonato_oliveira_cruz?token=UDAuMzE1MTgyNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24281513.png",
@@ -3118,7 +3178,7 @@
         {
           "name": "ELVIS.S",
           "negara": "GHANA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/elvis_sakyi?token=UDAuMjAyMDcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25070202.png",
@@ -3128,7 +3188,7 @@
         {
           "name": "INDRA ARYA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/indra_arya_perceka_wiguna?token=UDAuMzcyMDcyMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21270273.png",
@@ -3136,9 +3196,19 @@
           "posisi": "DEPAN"
         },
         {
+          "name": "HERIANSYAH",
+          "negara": "INDONESIA",
+          "penampilan": 0,
+          "usia": 22,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/heriansyah_yan?token=UDAuNzY3OTUyNDI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24259767.png",
+          "fullName": "HERIANSYAH YAN",
+          "posisi": "TENGAH"
+        },
+        {
           "name": "ROSALVO",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 34,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rosalvo_candido_rosa_junior?token=UDAuMzUzNTMwMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23035353.png",
@@ -3148,7 +3218,7 @@
         {
           "name": "SUDI",
           "negara": "BURUNDI",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 25,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/sudi_abdallah?token=UDAuNjM3MDgwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24080736.png",
@@ -3158,7 +3228,7 @@
         {
           "name": "R. HIDAYAT",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 23,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rahmat_hidayat?token=UDAuMzg2NjUxMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23156683.png",
@@ -3178,7 +3248,7 @@
         {
           "name": "ARDI",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ardi_ardiana?token=UDAuMzg0MDYyMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23260483.png",
@@ -3204,6 +3274,16 @@
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24030716.png",
           "fullName": "RENDI SAEPUL",
           "posisi": "TENGAH"
+        },
+        {
+          "name": "RAUFA",
+          "negara": "INDONESIA",
+          "penampilan": 0,
+          "usia": 20,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhammad_raufa_aghastya?token=UDAuOTEzMDQxMjI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22140319.png",
+          "fullName": "MUHAMMAD RAUFA AGHASTYA",
+          "posisi": "P. GAWANG"
         },
         {
           "name": "RESTU AKBAR",
@@ -3238,7 +3318,7 @@
         {
           "name": "BRITO",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/diogo_araujo_brito?token=UDAuMDQxMDcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25070140.png",
@@ -3246,9 +3326,19 @@
           "posisi": "BELAKANG"
         },
         {
+          "name": "FELIX",
+          "negara": "INDONESIA",
+          "penampilan": 0,
+          "usia": 20,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/felix_marcelino?token=UDAuNjk4NzYwMTI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21067896.png",
+          "fullName": "FELIX MARCELINO",
+          "posisi": "TENGAH"
+        },
+        {
           "name": "RODRIGO",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rodrigo_moura_do_nascimento?token=UDAuNjc4OTcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25079876.png",
@@ -3258,7 +3348,7 @@
         {
           "name": "ALEXIS",
           "negara": "ARGENTINA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 25,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/alexis_nahuel_gÓmez?token=UDAuMDk2MzcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25073690.png",
@@ -3268,7 +3358,7 @@
         {
           "name": "K.HAMISI",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/wahyudi_setiawan_hamisi?token=UDAuMTQ5OTM5NTE4MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1815939941.png",
@@ -3288,7 +3378,7 @@
         {
           "name": "YAKUBU",
           "negara": "GHANA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 25,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/najeeb_yakubu?token=UDAuNjE4MTcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25071816.png",
@@ -3298,7 +3388,7 @@
         {
           "name": "DICKY",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 23,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/dicky_kurniawan_arifin?token=UDAuODg5MDU0OTEwMg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2019450988.png",
@@ -3318,7 +3408,7 @@
         {
           "name": "ADZIKRY",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhammad_adzikry_fadlillah?token=UDAuOTI1ODQxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21148529.png",
@@ -3338,7 +3428,7 @@
         {
           "name": "RIZKI HIDAYAT",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rizki_hidayat?token=UDAuMzM0ODE1NDE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1614518433.png",
@@ -3348,7 +3438,7 @@
         {
           "name": "FRANÇA",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/carlos_henrique_franÇa_freires?token=UDAuNzE5ODcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25078917.png",
@@ -3375,7 +3465,7 @@
         {
           "name": "LEO",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/leonardo_navacchio?token=UDAuMzU4NjMyNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24236853.png",
@@ -3385,7 +3475,7 @@
         {
           "name": "KIKO",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 25,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/francisco_pereira_carneiro?token=UDAuODE4MjMwMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23032818.png",
@@ -3395,7 +3485,7 @@
         {
           "name": "I. GARCIA",
           "negara": "SPAIN",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/imanol_garcia_lugea?token=UDAuMjgwMDgwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25080082.png",
@@ -3405,7 +3495,7 @@
         {
           "name": "LUCAO",
           "negara": "BRAZIL",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/lucas_gama_moreira?token=UDAuOTg0NjIyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22226489.png",
@@ -3425,7 +3515,7 @@
         {
           "name": "YUSUF",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/yusuf_meilana_fuad_burhani?token=UDAuNjY0OTgzMTE3MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1711389466.png",
@@ -3435,7 +3525,7 @@
         {
           "name": "T. CASTANHEIRA",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/telmo_ferreira_castanheira?token=UDAuMDE4NzgwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25087810.png",
@@ -3445,7 +3535,7 @@
         {
           "name": "WALIAN",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ezra_harm_ruud_walian?token=UDAuMDYwNzM3NjE5MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1916737060.png",
@@ -3455,7 +3545,7 @@
         {
           "name": "ADY EKO",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ady_eko_jayanto?token=UDAuNTU1MTMwNzE3MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1717031555.png",
@@ -3475,7 +3565,7 @@
         {
           "name": "MUKHTAROV",
           "negara": "UZBEKISTAN",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/khurshidbek_mukhtorov_?token=UDAuOTAxMzgwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25083109.png",
@@ -3485,7 +3575,7 @@
         {
           "name": "ABI",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/syahrian_abimanyu?token=UDAuMTk2MDI1NjE3MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1716520691.png",
@@ -3515,7 +3605,7 @@
         {
           "name": "JOSE ENRIQUE",
           "negara": "SPAIN",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/jose_enrique_rodriguez?token=UDAuMzUyMTgwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25081253.png",
@@ -3525,7 +3615,7 @@
         {
           "name": "MOCH. SUPRIADI",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 23,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/moch._supriadi?token=UDAuNDIwNjEwMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21016024.png",
@@ -3545,7 +3635,7 @@
         {
           "name": "N. SETIAWAN",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/novri_setiawan?token=UDAuMjgwNg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE6082.png",
@@ -3565,7 +3655,7 @@
         {
           "name": "HUGO S.",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 20,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/hugo_samir?token=UDAuODE1OTUxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21159518.png",
@@ -3613,9 +3703,19 @@
           "posisi": "BELAKANG"
         },
         {
+          "name": "HAIKAL",
+          "negara": "INDONESIA",
+          "penampilan": 0,
+          "usia": 20,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/haikal_rihka_riza?token=UDAuODU5MTUxMjI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22151958.png",
+          "fullName": "HAIKAL RIHKA RIZA",
+          "posisi": "TENGAH"
+        },
+        {
           "name": "S. ATIEDA",
           "negara": "FRANCE",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/sylvain_justin_atieda?token=UDAuNjA4NTExNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25115806.png",
@@ -3665,7 +3765,7 @@
         {
           "name": "YANDI SOFYAN",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/yandi_sofyan_munawar?token=UDAuMjIwNg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE6022.png",
@@ -3682,7 +3782,7 @@
         {
           "name": "M . RIYANDI",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 25,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhamad_riyandi?token=UDAuNTA1NTU5NTE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1615955505.png",
@@ -3702,7 +3802,7 @@
         {
           "name": "XANDRO",
           "negara": "NETHERLANDS",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/xandro_dylan_schenk?token=UDAuODkwNjkwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25096098.png",
@@ -3712,7 +3812,7 @@
         {
           "name": "TUTUARIMA",
           "negara": "NETHERLANDS",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/jordy_soleman_gradus_tutuarima?token=UDAuOTMxODMxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25138139.png",
@@ -3752,7 +3852,7 @@
         {
           "name": "KASTANEER OSEPA",
           "negara": "NETHERLANDS",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/gervane_zjandric_adonnis_kastaneer?token=UDAuOTE4MzQxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25143819.png",
@@ -3762,7 +3862,7 @@
         {
           "name": "KODAI",
           "negara": "JAPAN",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/kodai_tanaka?token=UDAuNTI2NDgwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25084625.png",
@@ -3772,7 +3872,7 @@
         {
           "name": "MS. SAIMIMA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/moh._sidik_saimima?token=UDAuMTg3Nw==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE7781.png",
@@ -3782,7 +3882,7 @@
         {
           "name": "SHO",
           "negara": "JAPAN",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/sho_yamamoto?token=UDAuNDk1OTExMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22119594.png",
@@ -3792,7 +3892,7 @@
         {
           "name": "GIO",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 25,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/giovani_jorim_herzon_dacosta_numberi?token=UDAuMDg0OTIwODE4MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1818029480.png",
@@ -3802,7 +3902,7 @@
         {
           "name": "ARAPENTA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/arapenta_lingka_poerba?token=UDAuNzM1NzgyMTE3MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1711287537.png",
@@ -3812,7 +3912,7 @@
         {
           "name": "C.SANTOS",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/jose_cleylton_de_morais_dos_santos?token=UDAuNjQ2ODAxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25108646.png",
@@ -3912,7 +4012,7 @@
         {
           "name": "ALTHAF",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/althaf_indie_alrizky?token=UDAuNTYxMDQxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21140165.png",
@@ -3922,7 +4022,7 @@
         {
           "name": "ZULFAHMI A.",
           "negara": "SINGAPORE",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 34,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhammad_zulfahmi_bin_mohd_arifin?token=UDAuMzM2MTkwMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23091633.png",
@@ -3932,7 +4032,7 @@
         {
           "name": "TANAMAL",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ikwan_ali_tanamal?token=UDAuNzc1MDgyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22280577.png",
@@ -3999,7 +4099,7 @@
         {
           "name": "RYUJI",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ryuji_utomo_prabowo?token=UDAuMzk1Nw==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE7593.png",
@@ -4009,7 +4109,7 @@
         {
           "name": "KOZUBAEV",
           "negara": "KYRGYZ REPUBLIC",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/tamirlan_kozubaev?token=UDAuNDkyNzIyOTEwMg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2019227294.png",
@@ -4029,7 +4129,7 @@
         {
           "name": "RAYCO",
           "negara": "SPAIN",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rayco_rodriguez_medina?token=UDAuODM3NTUwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25055738.png",
@@ -4039,7 +4139,7 @@
         {
           "name": "PABLO GANET",
           "negara": "SPAIN",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/pablo_ganet_comitre?token=UDAuMzYzOTUwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25059363.png",
@@ -4059,7 +4159,7 @@
         {
           "name": "EBER BESSA",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/eber_henrique_ferreira_de_bessa?token=UDAuMjMzODcxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21178332.png",
@@ -4069,7 +4169,7 @@
         {
           "name": "Z. TOHA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhammad_toha?token=UDAuNzQzMzk0ODE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1618493347.png",
@@ -4109,7 +4209,7 @@
         {
           "name": "JAVLON",
           "negara": "UZBEKISTAN",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 34,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/javlon_guseynov?token=UDAuNTg2NDE2MTE5MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1911614685.png",
@@ -4129,7 +4229,7 @@
         {
           "name": "AHMAD FAHD",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ahmad_fahd_alchoir?token=UDAuNzAwMDgxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21180007.png",
@@ -4149,7 +4249,7 @@
         {
           "name": "IGOR",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/igor_carreira_rodrigues?token=UDAuMzExNjYyNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24266113.png",
@@ -4169,7 +4269,7 @@
         {
           "name": "SIN YEONG",
           "negara": "KOREA REPUBLIC",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/sin_yeong_bae?token=UDAuNjgyODUyMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21258286.png",
@@ -4179,7 +4279,7 @@
         {
           "name": "M. JARDEL",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 25,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/mario_jardel?token=UDAuMjgxNjg1NDE3MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1714586182.png",
@@ -4199,7 +4299,7 @@
         {
           "name": "ALVES",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/matheus_alves_leandro?token=UDAuMDI3MTUwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25051720.png",
@@ -4209,7 +4309,7 @@
         {
           "name": "CARAKA",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/hokky_caraka_bintang_brilliant?token=UDAuNTI4NDUwMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21054825.png",
@@ -4249,7 +4349,7 @@
         {
           "name": "ALEKSA",
           "negara": "SERBIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/andrejic_aleksa?token=UDAuNTgxODUwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24058185.png",
@@ -4269,7 +4369,7 @@
         {
           "name": "ESAL SAHRUL",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 23,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/esal_sahrul_muhrom?token=UDAuNzI5MjY1MzEwMg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2013562927.png",
@@ -4286,7 +4386,7 @@
         {
           "name": "BUDI",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/arif_budiyono?token=UDAuNjc0Mg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2476.png",
@@ -4306,7 +4406,7 @@
         {
           "name": "NURHIDAYAT H",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/nurhidayat_hh?token=UDAuMDE2NTIxODE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1618125610.png",
@@ -4316,7 +4416,7 @@
         {
           "name": "SANDRO. S",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/sandro_sene_anibal_embalo?token=UDAuMDkxMTUwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24051190.png",
@@ -4326,7 +4426,7 @@
         {
           "name": "RUYERY",
           "negara": "COLOMBIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ruyery_alfonso_blanco_yus?token=UDAuNzU4MDUxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25150857.png",
@@ -4356,7 +4456,7 @@
         {
           "name": "LUQUINHAS",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/claudio_lucas_morasi_ferreira_dos_santos?token=UDAuNzE1NDkwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25094517.png",
@@ -4416,7 +4516,7 @@
         {
           "name": "KEVIN L",
           "negara": "COLOMBIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 25,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/kevin_alexander_lopez_saldarriaga?token=UDAuMTQxNjcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25076141.png",
@@ -4426,7 +4526,7 @@
         {
           "name": "EDUARDO B",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/eduardo_miguel_ramos_barbosa?token=UDAuMjI1NDgwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25084522.png",
@@ -4436,7 +4536,7 @@
         {
           "name": "LUCKY",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/lucky_octavianto?token=UDAuNDM1MjI3MzE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1613722534.png",
@@ -4456,7 +4556,7 @@
         {
           "name": "G. BROWN",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/george__peter_brown?token=UDAuMzQyNjAxMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23106243.png",
@@ -4486,7 +4586,7 @@
         {
           "name": "I. U. ARMAIYN",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ilham_udin_armaiyn?token=UDAuMTc1Nw==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE7571.png",
@@ -4506,7 +4606,7 @@
         {
           "name": "ANDRADE",
           "negara": "BRAZIL",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/pablo_andrade_plaza_da_silva?token=UDAuMDkwOTAxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25109090.png",
@@ -4526,7 +4626,7 @@
         {
           "name": "KADU M",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/aldo_geraldo_manuel_monteiro?token=UDAuNDAzMjcwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25072304.png",
@@ -4566,7 +4666,7 @@
         {
           "name": "RAJA SIREGAR",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/raja_imam_siregar?token=UDAuNDk5MjUwMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23052994.png",
@@ -4596,7 +4696,7 @@
         {
           "name": "N. ALOM",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 35,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/nelson_alom?token=UDAuMjgwMw==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE3082.png",
@@ -4606,7 +4706,7 @@
         {
           "name": "DIMAS",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/dimas_galih_pratama?token=UDAuMjExNA==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE4112.png",
@@ -4616,7 +4716,7 @@
         {
           "name": "H. SUSANTO",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/heri_susanto?token=UDAuMzY2Ng==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE6663.png",
@@ -4643,7 +4743,7 @@
         {
           "name": "SAKU",
           "negara": "JAPAN",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/yusaku_yamadera?token=UDAuNjgyNzUwMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23057286.png",
@@ -4653,7 +4753,7 @@
         {
           "name": "F RAMOS MINGO",
           "negara": "ITALY",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/franco_gaston_ramos_mingo?token=UDAuNzQwMDYwNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25060047.png",
@@ -4683,7 +4783,7 @@
         {
           "name": "CORFE",
           "negara": "ENGLAND",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/corfe_deri_antony?token=UDAuOTc2NjEzNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24316679.png",
@@ -4693,7 +4793,7 @@
         {
           "name": "SAVIO SHEVA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 24,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/d._s._sheva_maresca_amavisca?token=UDAuMjQxNTk5OTE5MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1919995142.png",
@@ -4701,9 +4801,19 @@
           "posisi": "TENGAH"
         },
         {
+          "name": "A. FASE",
+          "negara": "BELANDA",
+          "penampilan": 0,
+          "usia": 25,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/anton_quinten_olivier_fase?token=UDAuNTM5MTIyNTI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25221935.png",
+          "fullName": "ANTON QUINTEN OLIVIER FASE",
+          "posisi": "DEPAN"
+        },
+        {
           "name": "ZE VALENTE",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/jose_pedro__magalhaes__valente?token=UDAuMzg2MDAyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22200683.png",
@@ -4713,7 +4823,7 @@
         {
           "name": "PULGA VIDAL",
           "negara": "ARGENTINA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 30,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/norberto_ezequiel_vidal?token=UDAuMDk0NjAzMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22306490.png",
@@ -4733,7 +4843,7 @@
         {
           "name": "RAKA C.R",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/raka_cahyana_rizky?token=UDAuNjY1NDU1MTExMg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2111554566.png",
@@ -4753,7 +4863,7 @@
         {
           "name": "CAHYA .S",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/cahya_supriadi?token=UDAuMjU4ODk2NTExMg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2115698852.png",
@@ -4783,7 +4893,7 @@
         {
           "name": "GHULAM",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ghulam_fatkur_rahman?token=UDAuNjgzMzgyMzE3MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1713283386.png",
@@ -4823,7 +4933,7 @@
         {
           "name": "REVA ADI U",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/reva_adi_utama?token=UDAuNTU4MDU3MjE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1612750855.png",
@@ -4843,7 +4953,7 @@
         {
           "name": "RAHMATSHO",
           "negara": "TAJIKISTAN",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rahmatshoh_rahmatzoda?token=UDAuMTUzNjkyNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24296351.png",
@@ -4893,7 +5003,7 @@
         {
           "name": "N. HALJETA",
           "negara": "SLOVENIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/nermin_haljeta?token=UDAuMjYwODgwNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24088062.png",
@@ -4930,7 +5040,7 @@
         {
           "name": "Y. FERNANDES",
           "negara": "PORTUGAL",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/yuran_fernandes_rocha_lopes?token=UDAuNDkyMTEyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22211294.png",
@@ -4950,7 +5060,7 @@
         {
           "name": "DETHAN",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 21,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/victor_jonson_benjamin_dethan?token=UDAuMDQyMDYxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21160240.png",
@@ -4958,9 +5068,19 @@
           "posisi": "TENGAH"
         },
         {
-          "name": "ALEX TANK",
+          "name": "SAVIO",
           "negara": "BRAZIL",
           "penampilan": 1,
+          "usia": 29,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/savio_roberto_juliao_figueiredo?token=UDAuNTU2MzAyNTI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25203655.png",
+          "fullName": "SAVIO ROBERTO JULIAO FIGUEIREDO",
+          "posisi": "TENGAH"
+        },
+        {
+          "name": "ALEX TANK",
+          "negara": "BRAZIL",
+          "penampilan": 2,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/alex_de_aguiar_gomes?token=UDAuMTc2NzQxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25147671.png",
@@ -4970,7 +5090,7 @@
         {
           "name": "DAISUKE",
           "negara": "JAPAN",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/daisuke_sakai?token=UDAuODY4NDEzNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24314868.png",
@@ -4980,7 +5100,7 @@
         {
           "name": "L. SERAFIM",
           "negara": "BRAZIL",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/lucas_dias_do_nascimento_serafim?token=UDAuNjg0ODMxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25138486.png",
@@ -4990,7 +5110,7 @@
         {
           "name": "SYAHRUL",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/syahrul_r_lasinari?token=UDAuODI2MzQyMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21243628.png",
@@ -5000,7 +5120,7 @@
         {
           "name": "RICKY",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ricky_pratama?token=UDAuNDUxNzUxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21157154.png",
@@ -5050,7 +5170,7 @@
         {
           "name": "VICTOR LUIZ",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/victor_luiz_prestes_filho?token=UDAuMzcxMzEzNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24313173.png",
@@ -5070,7 +5190,7 @@
         {
           "name": "M. RIZKY",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muh._rizky_eka_pratama?token=UDAuNDQ4OTM4MTcx",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE171839844.png",
@@ -5120,7 +5240,7 @@
         {
           "name": "RIFKYDS",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 23,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rifky_dwi_septiawan?token=UDAuNzMwODg5MzEwMg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE2013988037.png",
@@ -5130,7 +5250,7 @@
         {
           "name": "AKBAR",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/akbar_tanjung?token=UDAuOTUxNQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE5159.png",
@@ -5190,7 +5310,7 @@
         {
           "name": "KAMARA",
           "negara": "LIBERIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/abu_kamara?token=UDAuNjA2ODQxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25148606.png",
@@ -5210,7 +5330,7 @@
         {
           "name": "ANANDA R",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ananda_raehan_alief?token=UDAuNjc2OTUxMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21159676.png",
@@ -5220,7 +5340,7 @@
         {
           "name": "HILMAN SYAH",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 28,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/hilman_syah?token=UDAuODkxODk5OTE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1619998198.png",
@@ -5230,7 +5350,7 @@
         {
           "name": "MEDINA",
           "negara": "CONGO",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/jacques_medina_temopele?token=UDAuODU1ODUxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25158558.png",
@@ -5247,7 +5367,7 @@
         {
           "name": "ARTHUR A.",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 26,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/arthur_augusto_da_silva?token=UDAuMzEzMjQxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25142313.png",
@@ -5257,7 +5377,7 @@
         {
           "name": "LEO GUNTARA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/leo_guntara?token=UDAuNjQxNg==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE6146.png",
@@ -5267,7 +5387,7 @@
         {
           "name": "UMANAILO",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/abrizal_umanailo?token=UDAuOTg2Nw==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE7689.png",
@@ -5277,7 +5397,7 @@
         {
           "name": "CHABY",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 31,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/carlos_filipe_da_fonseca_chaby?token=UDAuOTc3MzIxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25123779.png",
@@ -5297,7 +5417,7 @@
         {
           "name": "STEWART",
           "negara": "TRINIDAD AND TOBAGO",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 36,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/cornelius_ezekiel_stewart?token=UDAuMjI1MzkyNDI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE24293522.png",
@@ -5307,7 +5427,7 @@
         {
           "name": "BRUNO GOMES",
           "negara": "BRAZIL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/bruno_gomes_de_oliveira_conceicao?token=UDAuOTA3NjIxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25126709.png",
@@ -5347,7 +5467,7 @@
         {
           "name": "JULIANSYAH",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/firman_juliansyah?token=UDAuMjU2MzQyMTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE21243652.png",
@@ -5357,7 +5477,7 @@
         {
           "name": "PEDRO MATOS",
           "negara": "PORTUGAL",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 27,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/pedro_ricardo_rodrigues_de_matos?token=UDAuNzU1MDExNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25110557.png",
@@ -5367,7 +5487,7 @@
         {
           "name": "RIDWAN",
           "negara": "INDONESIA",
-          "penampilan": 0,
+          "penampilan": 1,
           "usia": 25,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhamad_ridwan?token=UDAuODc1Nzk5OTE2MQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1619997578.png",
@@ -5387,7 +5507,7 @@
         {
           "name": "RAMPA",
           "negara": "PORTUGAL",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rui_pedro_ribeiro_de_sousa_peixoto?token=UDAuOTI2NzExNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25117629.png",
@@ -5397,7 +5517,7 @@
         {
           "name": "ANGELO",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/angelo_rafael_teixeira_alpoim_meneses?token=UDAuOTc3MjMwMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23032779.png",
@@ -5407,7 +5527,7 @@
         {
           "name": "ZIDANE",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 23,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/zidane_pramudya_afandi?token=UDAuMDgwODMwMzI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23038080.png",
@@ -5427,7 +5547,7 @@
         {
           "name": "A. WAKASO",
           "negara": "PORTUGAL",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 33,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/alhassan_wakaso?token=UDAuMjg4NDIxNTI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE25124882.png",
@@ -5441,8 +5561,8 @@
           "usia": 29,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/rosad_setiawan?token=UDAuODczNzgxMTYx",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE161187378.png",
-          "fullName": "ROSAD SETIAWAN",
-          "posisi": "TENGAH"
+          "fullName": "",
+          "posisi": ""
         },
         {
           "name": "IKRAM",
@@ -5467,7 +5587,7 @@
         {
           "name": "R. WAHYUDI",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 25,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/ripal_wahyudi?token=UDAuODYwNzQyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22247068.png",
@@ -5507,7 +5627,7 @@
         {
           "name": "OROPA",
           "negara": "INDONESIA",
-          "penampilan": 2,
+          "penampilan": 3,
           "usia": 22,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/armando_obet_oropa?token=UDAuNzIxNzIyMjI=",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE22227127.png",
@@ -5517,7 +5637,7 @@
         {
           "name": "IRSYAD",
           "negara": "INDONESIA",
-          "penampilan": 1,
+          "penampilan": 2,
           "usia": 32,
           "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/irsyad_maulana?token=UDAuMjgxNQ==",
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE5182.png",
@@ -5533,11 +5653,21 @@
           "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE1716973877.png",
           "fullName": "ACHMAD IQBAL BACHTIAR",
           "posisi": "P. GAWANG"
+        },
+        {
+          "name": "M. FAREL",
+          "negara": "INDONESIA",
+          "penampilan": 0,
+          "usia": 18,
+          "detailsPlayerUrl": "https://ileague.id/clubs/singleplayer/bri_super_league_2025-26/muhammad_farel_putra_wardani?token=UDAuMjIyMDgyMzI=",
+          "pictureUrl": "https://assets.ligaindonesiabaru.com/uploads/images/player/PE23280222.png",
+          "fullName": "MUHAMMAD FAREL PUTRA WARDANI",
+          "posisi": "P. GAWANG"
         }
       ]
     }
   ],
-  "retrieveDate": "2025-08-19T06:18:46.745993",
+  "retrieveDate": "2025-08-25T08:36:31.858609",
   "totalClub": 18,
-  "totalPlayers": 541
+  "totalPlayers": 554
 }
